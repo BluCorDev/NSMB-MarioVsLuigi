@@ -12,6 +12,13 @@ public static class PhotonExtensions {
         ["d5ba21667a5da00967cc5ebd64c0d648e554fb671637adb3d22a688157d39bf6"] = "mindnomad",
         ["95962949aacdbb42a6123732dabe9c7200ded59d7eeb39c889067bafeebecc72"] = "MPS64",
         ["7e9c6f2eaf0ce11098c8a90fcd9d48b13017667e33d09d0cc5dfe924f3ead6c1"] = "Fawndue",
+        ["00444ae89a3a1b331d44b7917207a27d7342451fa29e33d7f8c996a608e1aa06"] = "BluCor",
+        ["2a8417e483aa195f7f00ebe10b84262a4b8b0d85a0930d87c4aa52817bb28a67"] = "SLGJaron",
+        ["2a8417e483aa195f7f00ebe10b84262a4b8b0d85a0930d87c4aa52817bb28a67"] = "funnytophatman",
+        ["933d958d6d0395425828a75a7ad07c4c7503d500f8d29939cdba6990f12ba50a"] = "among",
+        ["933d958d6d0395425828a75a7ad07c4c7503d500f8d29939cdba6990f12ba50a"] = "cocainesunk",
+        ["c759b98244d2e44c37d27d1202cac3375eb01b1d13156ba8f8dc49b50500468a"] = "EmptySouls",
+        ["a9ee0e472c4c5b7a78a16547731fdced2dcc0062556d9f140dfc1c71414ccb17"] = "Foxyyy",
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {

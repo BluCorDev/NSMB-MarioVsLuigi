@@ -161,7 +161,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 88
         width: 256
         height: 424
       alignment: 0
@@ -182,7 +182,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 257
-        y: 238
+        y: 326
         width: 504
         height: 186
       alignment: 0
@@ -203,7 +203,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 257
-        y: 71
+        y: 159
         width: 256
         height: 167
       alignment: 0
@@ -219,6 +219,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: snow-bg_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48edff670c9f1ff49b51530db1f1d3a4
+      internalID: 106021922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -230,6 +251,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      snow-bg_3: 106021922
       snow-bg_2: 4933718115762173890
       snow-bg_0: -1958262001321784805
       snow-bg_1: -3686395583018577398

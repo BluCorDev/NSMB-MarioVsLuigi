@@ -41,6 +41,81 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/CustomDesert.unity
     guid: 0a445e83695e8424e9e56da3e5b773e4
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Mushroom Valley.unity
+    guid: e87c0eaaedd30bb4688094ba4aff810b
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Frosty Land.unity
+    guid: 5f4ac2f20eddba84a93567949c02d3ca
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Retro World.unity
+    guid: 4a0225877d455a645ad6de47a563bcd9
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Toxic Plant.unity
+    guid: 1a107ee5b5cf7f048bcba7a0ed9b456a
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Pipe Pond.unity
+    guid: 449281c5741ef1940ad449024d19ec33
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Rainy Sky.unity
+    guid: dad8adc2ccc56b647b6ba9f935994743
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Burning Jungle.unity
+    guid: 744ca6eb996e3e04baaaa468cdb9aa56
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 1.unity
+    guid: ac2672a52f7fcef4f8c5e45172cbec65
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 2.unity
+    guid: 7a3ddf7c795be18479b6ccda5d10432f
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Snow.unity
+    guid: f189b5ad876c6694ebf4f62304bd4442
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Underground 1.unity
+    guid: 024b8a01bc10e3d4dbf2ed4fc24be903
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Underground 2.unity
+    guid: 7ff12c7933adba64090e3e09eb0d48dd
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Mansion.unity
+    guid: 8e673591ab32bf444a1eb07b5c49bd6b
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Bricks NES.unity
+    guid: 832fa8e0c65e1c845b405b22d2eb0292
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Mushroom NES.unity
+    guid: 02424c0fea592c04e9c3b34fe45a2cb6
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Plataforms.unity
+    guid: 163e12e095f3b214b873e1aba8163802
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Final Castle.unity
+    guid: 452252a36f44cd940a2fc05d0e35cccc
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/GiddySky.unity
+    guid: 68900829745501d4b8f6462f8e2726bb
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/SunsetBeach.unity
+    guid: 67dc4b32bb8c38343be21542557a38fe
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Castle Rooftop.unity
+    guid: c20100e5fd57a1443bd630d530a149c9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Hyper Tower.unity
+    guid: 372bd1f6b35c3d54daf6e3f99e0a3868
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Pipe Slide Madness.unity
+    guid: acc6972de362f964a85185e6dc76cf7e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Normal Grassland.unity
+    guid: e0fd67132659b3d499b9bcd8d33e1e16
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Pipes but better.unity
+    guid: 7a143ade0390b6347a54df60510f413b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/ChrisLevel.unity
+    guid: 726270b3f73301e4d86c79f4ef9e818c
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
       type: 2}
