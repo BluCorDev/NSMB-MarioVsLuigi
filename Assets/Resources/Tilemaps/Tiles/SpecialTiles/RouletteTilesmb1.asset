@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cae7b6e054d80646b8732a74699dffc, type: 3}
+  m_Name: RouletteTilesmb1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -31869018, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: 894007388, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: 417900114, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: 894007388, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  m_MinSpeed: 4
+  m_MaxSpeed: 4
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
+  particleColor: {r: 0.7686275, g: 0.11764707, b: 0.18823531, a: 0}
+  breakableBySmallMario: 0
+  breakableByLargeMario: 0
+  breakableByGiantMario: 1
+  breakableByShells: 0
+  breakableByBombs: 0
+  bumpIfNotBroken: 0
+  bumpIfBroken: 0
+  resultTile: SpecialTiles/EmptyRedQuestionssmb1
+  topSpawnOffset: {x: 0, y: 0}
+  bottomSpawnOffset: {x: 0, y: 0}

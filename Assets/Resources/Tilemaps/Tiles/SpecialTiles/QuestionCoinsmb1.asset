@@ -9,20 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9aca9efef55f6a45a53ffcbd56a57cb, type: 3}
-  m_Name: QuestionPowerup
+  m_Script: {fileID: 11500000, guid: 768622ea6605f424793685c1aaec5076, type: 3}
+  m_Name: QuestionCoinsmb1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -290722059, guid: abcf54f3290aa0a4f8f1ef645e52b09e, type: 3}
-  - {fileID: 1450320055, guid: abcf54f3290aa0a4f8f1ef645e52b09e, type: 3}
-  - {fileID: 1882431405, guid: abcf54f3290aa0a4f8f1ef645e52b09e, type: 3}
-  - {fileID: -644975877, guid: abcf54f3290aa0a4f8f1ef645e52b09e, type: 3}
-  m_MinSpeed: 8
-  m_MaxSpeed: 8
+  - {fileID: -203910712, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: -1709860328, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: 1178885425, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: -1709860328, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  m_MinSpeed: 4
+  m_MaxSpeed: 4
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 2
-  particleColor: {r: 0.92549026, g: 0.8078432, b: 0.3921569, a: 1}
+  particleColor: {r: 0.9254902, g: 0.80784315, b: 0.39215687, a: 0}
   breakableBySmallMario: 0
   breakableByLargeMario: 0
   breakableByGiantMario: 1
@@ -30,4 +30,4 @@ MonoBehaviour:
   breakableByBombs: 1
   bumpIfNotBroken: 0
   bumpIfBroken: 0
-  resultTile: SpecialTiles/smb2/EmptyYellowQuestionsmb2
+  resultTile: SpecialTiles/EmptyYellowQuestionsmb1

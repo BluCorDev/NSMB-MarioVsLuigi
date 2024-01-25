@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a8e0a9cf03afb145bee88e8779c16e9, type: 3}
-  m_Name: BrownBrick
+  m_Name: EmptyYellowQuestionsmb1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -612451761, guid: 73358c36067822b48b7c6cd739498d54, type: 3}
-  m_MinSpeed: 8
-  m_MaxSpeed: 8
+  - {fileID: 1110659026, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 2
-  particleColor: {r: 0.84705883, g: 0.627451, b: 0.15686275, a: 1}
+  particleColor: {r: 0.7843138, g: 0.2509804, b: 0.09411766, a: 0}
   breakableBySmallMario: 0
-  breakableByLargeMario: 1
+  breakableByLargeMario: 0
   breakableByGiantMario: 1
-  breakableByShells: 1
+  breakableByShells: 0
   breakableByBombs: 1
-  bumpIfNotBroken: 1
-  bumpIfBroken: 1
+  bumpIfNotBroken: 0
+  bumpIfBroken: 0

@@ -30,4 +30,4 @@ MonoBehaviour:
   breakableByBombs: 1
   bumpIfNotBroken: 0
   bumpIfBroken: 0
-  resultTile: SpecialTiles/smb2/EmptyYellowQuestionsmb2
+  resultTile: SpecialTiles/EmptyYellowQuestionsmb2
