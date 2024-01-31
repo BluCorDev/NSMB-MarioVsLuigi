@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/10P/Burning Jungle.unity
     guid: 744ca6eb996e3e04baaaa468cdb9aa56
   - enabled: 1
+    path: Assets/Scenes/Levels/10P/Bonus Madness.unity
+    guid: 9b7d8e43a9c286c41aae71e6e72fa50c
+  - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Castle 1.unity
     guid: ac2672a52f7fcef4f8c5e45172cbec65
   - enabled: 1
@@ -80,6 +83,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Underground 2.unity
     guid: 7ff12c7933adba64090e3e09eb0d48dd
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Underground 3.unity
+    guid: 37087ed2ee5ab334fa3ef9e2ada001f8
   - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Mansion.unity
     guid: 8e673591ab32bf444a1eb07b5c49bd6b
