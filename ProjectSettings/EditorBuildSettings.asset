@@ -117,6 +117,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Custom/Pipe Slide Madness.unity
     guid: acc6972de362f964a85185e6dc76cf7e
   - enabled: 1
+    path: Assets/Scenes/Levels/Custom/PvZ Map.unity
+    guid: 52b4d38314c68754582a0967a152b5fa
+  - enabled: 1
     path: Assets/Scenes/Levels/Custom/Normal Grassland.unity
     guid: e0fd67132659b3d499b9bcd8d33e1e16
   - enabled: 1
