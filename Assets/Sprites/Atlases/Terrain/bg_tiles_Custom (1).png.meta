@@ -1563,6 +1563,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bg_tiles_Custom (1)_61
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1088
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f8cd6b37a1ebb46b5b98da60739b30
+      internalID: 536894838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1632,6 +1653,7 @@ TextureImporter:
       bg_tiles_Custom (1)_59: 1880257459
       bg_tiles_Custom (1)_6: 577551090
       bg_tiles_Custom (1)_60: 781465233
+      bg_tiles_Custom (1)_61: 536894838
       bg_tiles_Custom (1)_7: 127063567
       bg_tiles_Custom (1)_8: -266754054
       bg_tiles_Custom (1)_9: 1265136990
