@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/10P/Retro World 2.unity
     guid: 2d4c7b0359c35e34f990da5cff4bee8a
   - enabled: 1
+    path: Assets/Scenes/Levels/10P/Retro World 3.unity
+    guid: 50788f80a138f8345bef28379e6eb2b4
+  - enabled: 1
     path: Assets/Scenes/Levels/10P/Toxic Plant.unity
     guid: 1a107ee5b5cf7f048bcba7a0ed9b456a
   - enabled: 1
@@ -116,6 +119,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/Pipe Slide Madness.unity
     guid: acc6972de362f964a85185e6dc76cf7e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/AquariumPark.unity
+    guid: 37899d6aecc5b9940ad1ac866dfc87fa
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/Shark Zombie Old.unity
     guid: 52b4d38314c68754582a0967a152b5fa
