@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EmptyYellowQuestionsmb1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 1110659026, guid: 615d2e5cc24d27f4584cd641f38b649f, type: 3}
+  - {fileID: -766110185, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

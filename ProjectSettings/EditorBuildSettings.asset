@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/10P/Retro World 3.unity
     guid: 50788f80a138f8345bef28379e6eb2b4
   - enabled: 1
+    path: Assets/Scenes/Levels/10P/Retro World 4.unity
+    guid: 228c770abd655fc4eae1485eba3e21bb
+  - enabled: 1
     path: Assets/Scenes/Levels/10P/Toxic Plant.unity
     guid: 1a107ee5b5cf7f048bcba7a0ed9b456a
   - enabled: 1
@@ -68,7 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/10P/Burning Jungle.unity
     guid: 744ca6eb996e3e04baaaa468cdb9aa56
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/10P/Bonus Madness.unity
     guid: 9b7d8e43a9c286c41aae71e6e72fa50c
   - enabled: 1
