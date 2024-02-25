@@ -746,7 +746,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         if (Frozen)
             return;
 
-        if (running && (state == Enums.PowerupState.FireFlower || state == Enums.PowerupState.IceFlower) && GlobalController.Instance.settings.fireballFromSprint)
+        if (running && (state == Enums.PowerupState.FireFlower || state == Enums.PowerupState.IceFlower || state == Enums.PowerupState.WaterFlower ) && GlobalController.Instance.settings.fireballFromSprint)
             ActivatePowerupAction();
     }
 
@@ -767,8 +767,9 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
         switch (state) {
         case Enums.PowerupState.IceFlower:
-        case Enums.PowerupState.FireFlower: {
-            if (wallSlideLeft || wallSlideRight || groundpound || triplejump || flying || drill || crouching || sliding)
+        case Enums.PowerupState.FireFlower:
+        case Enums.PowerupState.WaterFlower: {
+                    if (wallSlideLeft || wallSlideRight || groundpound || triplejump || flying || drill || crouching || sliding)
                 return;
 
             int count = 0;
@@ -790,10 +791,16 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             }
 
             bool ice = state == Enums.PowerupState.IceFlower;
+            bool water = state == Enums.PowerupState.WaterFlower;
             string projectile = ice ? "Iceball" : "Fireball";
             Enums.Sounds sound = ice ? Enums.Sounds.Powerup_Iceball_Shoot : Enums.Sounds.Powerup_Fireball_Shoot;
+            if (water)
+            {
+            projectile = "Waterball";
+            sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
+            }
 
-            Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
+                    Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
             if (Utils.IsTileSolidAtWorldLocation(pos)) {
                 photonView.RPC(nameof(SpawnParticle), RpcTarget.All, $"Prefabs/Particle/{projectile}Wall", pos);
             } else {
@@ -1018,8 +1025,9 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         case Enums.PowerupState.FireFlower:
         case Enums.PowerupState.IceFlower:
         case Enums.PowerupState.PropellerMushroom:
-        case Enums.PowerupState.BlueShell: {
-            state = Enums.PowerupState.Mushroom;
+        case Enums.PowerupState.BlueShell:
+        case Enums.PowerupState.WaterFlower: {
+                    state = Enums.PowerupState.Mushroom;
             powerupFlash = 2f;
             SpawnStars(1, false);
             break;

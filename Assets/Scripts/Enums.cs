@@ -26,9 +26,10 @@ public static class Enums {
         [PowerupState.PropellerMushroom] = new(2),
         [PowerupState.BlueShell] = new(2),
         [PowerupState.MegaMushroom] = new(4),
+        [PowerupState.WaterFlower] = new(2),
     };
     public enum PowerupState : byte {
-        None, MiniMushroom, Small, Mushroom, FireFlower, IceFlower, PropellerMushroom, BlueShell, MegaMushroom
+        None, MiniMushroom, Small, Mushroom, FireFlower, IceFlower, PropellerMushroom, BlueShell, MegaMushroom, WaterFlower
     }
     #endregion
     #region ANIMATION & MUSIC
@@ -45,7 +46,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 94
+        //CURRENT MAX: 96
 
         //Enemy
         [SoundData("enemy/freeze")]                             Enemy_Generic_Freeze = 0,
@@ -119,6 +120,8 @@ public static class Enums {
         [SoundData("powerup/propellermushroom_kick")]           Powerup_PropellerMushroom_Kick = 57,
         [SoundData("powerup/propellermushroom_spin")]           Powerup_PropellerMushroom_Spin = 58,
         [SoundData("powerup/propellermushroom_start")]          Powerup_PropellerMushroom_Start = 59,
+        [SoundData("powerup/waterflower_shoot")]                Powerup_WaterFlower_Shoot = 95,
+        [SoundData("powerup/waterflower_break")]                Powerup_WaterFlower_Break = 96,
 
         //UI Sounds / Songs / Jingles
         [SoundData("ui/hurry_up")]                              UI_HurryUp = 60,

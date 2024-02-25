@@ -3,9 +3,9 @@ using Photon.Pun;
 
 public class FireballMover : MonoBehaviourPun {
 
-    public bool left, isIceball;
+    public bool left, isIceball, isWaterball;
 
-    [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f;
+    [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f, despawnTimer = 0f;
 
     private Rigidbody2D body;
     private PhysicsEntity physics;
@@ -35,6 +35,10 @@ public class FireballMover : MonoBehaviourPun {
 
         float gravityInOneFrame = body.gravityScale * Physics2D.gravity.y * Time.fixedDeltaTime;
         body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(-terminalVelocity, body.velocity.y));
+
+        if (despawnTimer > 0 && (despawnTimer -= Time.fixedDeltaTime) <= 0) {
+            PhotonNetwork.Destroy(gameObject);
+        }
     }
 
     private void HandleCollision() {
@@ -60,7 +64,7 @@ public class FireballMover : MonoBehaviourPun {
 
     public void OnDestroy() {
         if (!GameManager.Instance.gameover)
-            Instantiate(Resources.Load("Prefabs/Particle/" + (isIceball ? "IceballWall" : "FireballWall")), transform.position, Quaternion.identity);
+            Instantiate(Resources.Load("Prefabs/Particle/" + (isIceball ? "IceballWall" : isWaterball ? "WaterballWall" : "FireballWall" )), transform.position, Quaternion.identity);
     }
 
     [PunRPC]
