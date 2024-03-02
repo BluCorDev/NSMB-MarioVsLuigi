@@ -10475,6 +10475,8 @@ MonoBehaviour:
   propellerTimer: 0
   propellerSpinTimer: 0
   fireballTimer: 0
+  inShield: 0
+  onShieldCooldown: 0
   invincible: 0
   giantTimer: 0
   floorAngle: 0

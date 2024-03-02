@@ -59,7 +59,7 @@ MonoBehaviour:
   left: 0
   isIceball: 0
   isWaterball: 1
-  speed: 6.25
+  speed: 6
   bounceHeight: 6.75
   terminalVelocity: 6.25
   despawnTimer: 1
