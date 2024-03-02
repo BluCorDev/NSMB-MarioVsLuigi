@@ -58,9 +58,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: 0
   isIceball: 0
+  isWaterball: 0
   speed: 6.25
   bounceHeight: 6.75
   terminalVelocity: 6.25
+  despawnTimer: 0
 --- !u!212 &1011982274984717419
 SpriteRenderer:
   m_ObjectHideFlags: 0

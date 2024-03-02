@@ -62,6 +62,7 @@ MonoBehaviour:
   speed: 4.25
   bounceHeight: 6
   terminalVelocity: 6.25
+  despawnTimer: 0
 --- !u!212 &1011982274984717419
 SpriteRenderer:
   m_ObjectHideFlags: 0

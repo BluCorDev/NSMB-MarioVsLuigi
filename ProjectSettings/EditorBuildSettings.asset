@@ -71,9 +71,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/10P/Burning Jungle.unity
     guid: 744ca6eb996e3e04baaaa468cdb9aa56
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Levels/10P/Bonus Madness.unity
     guid: 9b7d8e43a9c286c41aae71e6e72fa50c
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Sunny Beach.unity
+    guid: ea58c5d5dad3c674eaa04dff44e8175c
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Nightly Beach.unity
+    guid: 514174628d5650a4ba50a5a7c8793cee
+  - enabled: 1
+    path: Assets/Scenes/Levels/10P/Dark Forest.unity
+    guid: 43e9519118d04824693aeb912207e9df
   - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Castle 1.unity
     guid: ac2672a52f7fcef4f8c5e45172cbec65
@@ -131,6 +140,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/Shark Zombie New.unity
     guid: f1b99b5e89ce74e48aab0463fd0282c3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Custom/Shark Zombie 2.unity
+    guid: 6ebd1ff2e30079843b1962bdf13e3c7d
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/Normal Grassland.unity
     guid: e0fd67132659b3d499b9bcd8d33e1e16
