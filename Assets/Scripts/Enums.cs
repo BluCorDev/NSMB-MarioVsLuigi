@@ -123,6 +123,7 @@ public static class Enums {
         [SoundData("powerup/waterflower_shoot")]                Powerup_WaterFlower_Shoot = 95,
         [SoundData("powerup/waterflower_break")]                Powerup_WaterFlower_Break = 96,
         [SoundData("powerup/bubble_shield")]                    Powerup_Bubble_Shield = 97,
+        [SoundData("powerup/bubble_bounce")]                    Powerup_BubbleShieldReady = 98,
 
         //UI Sounds / Songs / Jingles
         [SoundData("ui/hurry_up")]                              UI_HurryUp = 60,
