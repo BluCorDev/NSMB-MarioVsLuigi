@@ -746,7 +746,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         if (Frozen)
             return;
 
-        if (running && (state == Enums.PowerupState.FireFlower || state == Enums.PowerupState.IceFlower || state == Enums.PowerupState.WaterFlower ) && GlobalController.Instance.settings.fireballFromSprint)
+        if (running && (state == Enums.PowerupState.FireFlower || state == Enums.PowerupState.IceFlower || state == Enums.PowerupState.WaterFlower || state == Enums.PowerupState.MagmaFlower) && GlobalController.Instance.settings.fireballFromSprint)
             ActivatePowerupAction();
     }
 
@@ -767,8 +767,9 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
         switch (state) {
         case Enums.PowerupState.IceFlower:
-        case Enums.PowerupState.FireFlower: {
-                    if (wallSlideLeft || wallSlideRight || groundpound || triplejump || flying || drill || crouching || sliding)
+        case Enums.PowerupState.FireFlower: 
+        case Enums.PowerupState.MagmaFlower:{
+            if (wallSlideLeft || wallSlideRight || groundpound || triplejump || flying || drill || crouching || sliding)
                 return;
 
             int count = 0;
@@ -776,8 +777,14 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 if (existingFire.photonView.IsMine && ++count >= 6)
                     return;
             }
-
-            if (count <= 1) {
+            if (state == Enums.PowerupState.MagmaFlower) {
+                canShootProjectile = false;
+                if (fireballTimer <= 0) {
+                    fireballTimer = 1.3f;
+                } else {
+                    return;
+                }   
+            } else if (count <= 1) {
                 fireballTimer = 1.25f;
                 canShootProjectile = count == 0;
             } else if (fireballTimer <= 0) {
@@ -789,8 +796,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 return;
             }
 
+            bool upInput = joystick.y > analogDeadzone;
             bool ice = state == Enums.PowerupState.IceFlower;
             bool water = state == Enums.PowerupState.WaterFlower;
+            bool magma = state == Enums.PowerupState.MagmaFlower;
             string projectile = ice ? "Iceball" : "Fireball";
             Enums.Sounds sound = ice ? Enums.Sounds.Powerup_Iceball_Shoot : Enums.Sounds.Powerup_Fireball_Shoot;
             if (water) {
@@ -798,6 +807,13 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
             
             }
+            if (magma && upInput) {
+                projectile = "BigMagmaball";
+                sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
+              } else if (magma) {
+                  projectile = "Magmaball";
+                  sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
+                }
             
                     Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
             if (Utils.IsTileSolidAtWorldLocation(pos)) {
@@ -1120,7 +1136,8 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         case Enums.PowerupState.IceFlower:
         case Enums.PowerupState.PropellerMushroom:
         case Enums.PowerupState.BlueShell:
-        case Enums.PowerupState.WaterFlower: {
+        case Enums.PowerupState.WaterFlower:
+        case Enums.PowerupState.MagmaFlower: {
                     state = Enums.PowerupState.Mushroom;
             powerupFlash = 2f;
             SpawnStars(1, false);

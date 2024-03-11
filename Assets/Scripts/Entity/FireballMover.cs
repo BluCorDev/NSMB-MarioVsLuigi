@@ -3,7 +3,7 @@ using Photon.Pun;
 
 public class FireballMover : MonoBehaviourPun {
 
-    public bool left, isIceball, isWaterball;
+    public bool left, isIceball, isWaterball, IsMagmaball;
 
     [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f, despawnTimer = 0f;
 
@@ -51,6 +51,8 @@ public class FireballMover : MonoBehaviourPun {
 
             body.velocity = new Vector2(body.velocity.x, bounceHeight + boost);
         } else if (isIceball && body.velocity.y > 1.5f)  {
+            breakOnImpact = true;
+        } else if (IsMagmaball && body.velocity.y > 1.5f)  {
             breakOnImpact = true;
         }
         bool breaking = physics.hitLeft || physics.hitRight || physics.hitRoof || (physics.onGround && breakOnImpact);

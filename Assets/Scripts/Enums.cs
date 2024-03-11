@@ -27,9 +27,10 @@ public static class Enums {
         [PowerupState.BlueShell] = new(2),
         [PowerupState.MegaMushroom] = new(4),
         [PowerupState.WaterFlower] = new(2),
+        [PowerupState.MagmaFlower] = new(2),
     };
     public enum PowerupState : byte {
-        None, MiniMushroom, Small, Mushroom, FireFlower, IceFlower, PropellerMushroom, BlueShell, MegaMushroom, WaterFlower
+        None, MiniMushroom, Small, Mushroom, FireFlower, IceFlower, PropellerMushroom, BlueShell, MegaMushroom, WaterFlower, MagmaFlower
     }
     #endregion
     #region ANIMATION & MUSIC
@@ -124,6 +125,7 @@ public static class Enums {
         [SoundData("powerup/waterflower_break")]                Powerup_WaterFlower_Break = 96,
         [SoundData("powerup/bubble_shield")]                    Powerup_Bubble_Shield = 97,
         [SoundData("powerup/bubble_bounce")]                    Powerup_BubbleShieldReady = 98,
+        [SoundData("powerup/magmaflower_shoot")]                Powerup_MagmaFlower_Shoot = 99,
 
         //UI Sounds / Songs / Jingles
         [SoundData("ui/hurry_up")]                              UI_HurryUp = 60,

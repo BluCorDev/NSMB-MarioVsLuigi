@@ -59,6 +59,7 @@ MonoBehaviour:
   left: 0
   isIceball: 0
   isWaterball: 1
+  IsMagmaball: 0
   speed: 6
   bounceHeight: 6.75
   terminalVelocity: 6.25
