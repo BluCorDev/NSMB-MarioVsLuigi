@@ -191,8 +191,8 @@ MonoBehaviour:
   startGate: {fileID: 100231972}
   timer: 0
   destroyTimer: 5
-  particle: Prefabs/Particle/Explosion
-  spawnsParticle: 1
+  particle: 
+  spawnsParticle: 0
 --- !u!66 &100231976
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -6257,8 +6257,8 @@ MonoBehaviour:
   startGate: {fileID: 465720153}
   timer: 0
   destroyTimer: 7
-  particle: Prefabs/Particle/Explosion
-  spawnsParticle: 1
+  particle: 
+  spawnsParticle: 0
 --- !u!66 &465720157
 CompositeCollider2D:
   m_ObjectHideFlags: 0

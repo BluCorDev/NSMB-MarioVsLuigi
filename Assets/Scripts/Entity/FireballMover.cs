@@ -85,6 +85,11 @@ public class FireballMover : MonoBehaviourPun {
             KillableEntity en = collider.gameObject.GetComponentInParent<KillableEntity>();
             if (en.dead || en.Frozen)
                 return;
+            
+            if (en is Thwomp) {
+              PhotonNetwork.Destroy(gameObject);
+              return;
+            }
 
             if (isIceball) {
                 PhotonNetwork.Instantiate("Prefabs/FrozenCube", en.transform.position + new Vector3(0, 0.1f, 0), Quaternion.identity, 0, new object[] { en.photonView.ViewID });
