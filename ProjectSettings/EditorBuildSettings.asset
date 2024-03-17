@@ -90,6 +90,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/SM4J/Castle 2.unity
     guid: 7a3ddf7c795be18479b6ccda5d10432f
   - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 3.unity
+    guid: 713b7ceb72fd8184fac2ad8fef204f2c
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 4.unity
+    guid: f5674c5dc41487a4098fce2a8bfe85b2
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 5.unity
+    guid: bdeb82254f58e9a4a814cf9b182cbf11
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Castle 6.unity
+    guid: 785bdcad706a63242b4cce832ea4954b
+  - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Snow.unity
     guid: f189b5ad876c6694ebf4f62304bd4442
   - enabled: 1
@@ -102,6 +114,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/SM4J/Underground 3.unity
     guid: 37087ed2ee5ab334fa3ef9e2ada001f8
   - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Underground 4.unity
+    guid: 78713914de5360443a9cfe89cc534134
+  - enabled: 1
     path: Assets/Scenes/Levels/SM4J/Mansion.unity
     guid: 8e673591ab32bf444a1eb07b5c49bd6b
   - enabled: 1
@@ -111,8 +126,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/SM4J/Mushroom NES.unity
     guid: 02424c0fea592c04e9c3b34fe45a2cb6
   - enabled: 1
-    path: Assets/Scenes/Levels/SM4J/Plataforms.unity
+    path: Assets/Scenes/Levels/SM4J/Platforms.unity
     guid: 163e12e095f3b214b873e1aba8163802
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Mushrooms.unity
+    guid: 2cb24c9c74a087d4dab37fa5516a42b7
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Airship.unity
+    guid: 8dcb85fd4f80485449dc1261835bf6be
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Storage.unity
+    guid: 8b6ff591316593b4096ea2051e3a41d7
+  - enabled: 1
+    path: Assets/Scenes/Levels/SM4J/Minigames/Survive.unity
+    guid: 83b63548321ee0843b9fc712549114af
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/Final Castle.unity
     guid: 452252a36f44cd940a2fc05d0e35cccc
@@ -152,12 +179,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Custom/ChrisLevel.unity
     guid: 726270b3f73301e4d86c79f4ef9e818c
-  - enabled: 1
-    path: Assets/Scenes/Template/RaceTemplate.unity
-    guid: 6bf1bf26167b1294cba2121c92751751
-  - enabled: 1
-    path: Assets/Scenes/Levels/Other/CustomSwitchingCourse.unity
-    guid: 6a3e782aa37e8eb4291ba3ece2e23c10
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
       type: 2}

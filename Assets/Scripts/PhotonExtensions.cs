@@ -8,13 +8,9 @@ using Photon.Realtime;
 public static class PhotonExtensions {
 
     private static readonly Dictionary<string, string> SPECIAL_PLAYERS = new() {
-        ["00444ae89a3a1b331d44b7917207a27d7342451fa29e33d7f8c996a608e1aa06"] = "BluCor",
-        ["2a8417e483aa195f7f00ebe10b84262a4b8b0d85a0930d87c4aa52817bb28a67"] = "SLGJaron",
-        ["2a8417e483aa195f7f00ebe10b84262a4b8b0d85a0930d87c4aa52817bb28a67"] = "funnytophatman",
-        ["933d958d6d0395425828a75a7ad07c4c7503d500f8d29939cdba6990f12ba50a"] = "among",
-        ["933d958d6d0395425828a75a7ad07c4c7503d500f8d29939cdba6990f12ba50a"] = "cocainesunk",
-        ["a9ee0e472c4c5b7a78a16547731fdced2dcc0062556d9f140dfc1c71414ccb17"] = "Foxyyy",
-        ["74478e52b28f3de827755481a2175e68fbfcc671c4bfe702ccd4ac2c7d53a58e"] = "FrostyCake",
+        ["96b3ff9946cdf2e6678279a2d523e75ddeb12034b976c59af67913ba20bb8c1f"] = "BluCor",
+        ["3d45e2b8eb586e10d4f49e3964b99cb403fb7a4c4792c57b8a6b085bb203807a"] = "Foxyyy",
+        ["ffd345731c31c49b66a2c6398d6489fd1f19fe717ef78e0174fc4cbe7d4828cf"] = "FrostyCake",
         ["316424c21a3513d5e6294e7854615f3d0c13b4aaf09b2a443d2cfe0d0046d006"] = "zomblebobble",
     };
 

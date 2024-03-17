@@ -29,6 +29,7 @@ public class EnemySpawnpoint : MonoBehaviour {
             "Prefabs/Enemy/Bobomb" => 0.22f,
             "Prefabs/Enemy/Goomba" => 0.22f,
             "Prefabs/Enemy/Spiny" => -0.03125f,
+            "Prefabs/Enemy/Thwomp" => 0.15f,
             _ => 0,
         };
         Gizmos.DrawIcon(transform.position + offset * Vector3.up, icon, true, new Color(1, 1, 1, 0.5f));

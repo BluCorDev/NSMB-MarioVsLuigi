@@ -316,6 +316,11 @@ PrefabInstance:
       objectReference: {fileID: 1816989173}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
+      propertyPath: levelName
+      value: (10P) Dark Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
       propertyPath: loopingLevel
       value: 1
       objectReference: {fileID: 0}
@@ -323,6 +328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spawnpoint.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: levelDesigner
+      value: BluCorDev and Among
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -338,6 +348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: levelWidthTile
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: richPresenceId
+      value: mainmenu
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}

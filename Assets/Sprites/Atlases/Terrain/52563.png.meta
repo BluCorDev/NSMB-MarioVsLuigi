@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 52563_6
+      name: 52563_stair1
       rect:
         serializedVersion: 2
         x: 433
@@ -283,7 +283,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -8, y: 0}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
       physicsShape:
       - - {x: -8, y: -8}
         - {x: -8, y: 0}
@@ -298,17 +302,21 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 52563_7
+      name: 52563_stair2
       rect:
         serializedVersion: 2
         x: 417
-        y: 195
+        y: 203
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -8, y: -7}
+        - {x: -8, y: -6}
+        - {x: 8, y: 0}
+        - {x: 8, y: -1}
       physicsShape:
       - - {x: -8, y: -8}
         - {x: -8, y: 0}
@@ -323,11 +331,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 52563_8
+      name: 52563_stair3
       rect:
         serializedVersion: 2
         x: 417
-        y: 179
+        y: 187
         width: 16
         height: 16
       alignment: 0
@@ -348,11 +356,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 52563_9
+      name: 52563_stair4
       rect:
         serializedVersion: 2
-        x: 425
-        y: 163
+        x: 417
+        y: 171
         width: 16
         height: 16
       alignment: 0
@@ -369,11 +377,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 52563_10
+      name: 52563_stair5
       rect:
         serializedVersion: 2
-        x: 441
-        y: 155
+        x: 433
+        y: 171
         width: 16
         height: 16
       alignment: 0
@@ -824,6 +832,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 52563_stair6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e1e8bdda26e97459948d47eab9401b
+      internalID: -1522438718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -837,7 +866,6 @@ TextureImporter:
     nameFileIdTable:
       52563_0: -598638237
       52563_1: -902814032
-      52563_10: 512566808
       52563_11: -16188639
       52563_12: 1519690754
       52563_13: 1402905014
@@ -861,10 +889,12 @@ TextureImporter:
       52563_3: 1446233887
       52563_4: -1707010838
       52563_5: -1428365532
-      52563_6: -1192822251
-      52563_7: -479369100
-      52563_8: -951760199
-      52563_9: 1139369768
+      52563_stair1: -1192822251
+      52563_stair2: -479369100
+      52563_stair3: -951760199
+      52563_stair4: 1139369768
+      52563_stair5: 512566808
+      52563_stair6: -1522438718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
