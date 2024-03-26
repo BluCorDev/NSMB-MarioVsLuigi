@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     public PlayerAnimationController AnimationController { get; private set; }
 
-    public bool onGround, previousOnGround, crushGround, doGroundSnap, jumping, properJump, hitRoof, skidding, turnaround, facingRight = true, singlejump, doublejump, triplejump, bounce, crouching, groundpound, groundpoundLastFrame, sliding, knockback, hitBlock, running, functionallyRunning, jumpHeld, flying, drill, inShell, hitLeft, hitRight, stuckInBlock, alreadyStuckInBlock, propeller, usedPropellerThisJump, stationaryGiantEnd, fireballKnockback, startedSliding, canShootProjectile;
+    public bool onGround, previousOnGround, crushGround, doGroundSnap, jumping, properJump, hitRoof, skidding, turnaround, facingRight = true, singlejump, doublejump, triplejump, bounce, crouching, groundpound, groundpoundLastFrame, sliding, knockback, hitBlock, running, functionallyRunning, jumpHeld, flying, drill, inShell, hitLeft, hitRight, stuckInBlock, alreadyStuckInBlock, propeller, usedPropellerThisJump, stationaryGiantEnd, fireballKnockback, startedSliding, canShootProjectile, gotCheckpoint;
     public float jumpLandingTimer, landing, koyoteTime, groundpoundCounter, groundpoundStartTimer, pickupTimer, groundpoundDelay, hitInvincibilityCounter, powerupFlash, throwInvincibility, jumpBuffer, giantStartTimer, giantEndTimer, propellerTimer, propellerSpinTimer, fireballTimer, inShield, onShieldCooldown;
     public float invincible, giantTimer, floorAngle, knockbackTimer, pipeTimer, slowdownTimer;
 
@@ -657,6 +657,15 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                     return;
                 }
             }
+            break;
+        }
+        case "checkpoint": {    
+            if (gotCheckpoint) 
+                return;
+            
+            gotCheckpoint = true;
+            PlaySoundEverywhere(Enums.Sounds.World_Checkpoint);
+            GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.ResetTiles, null, SendOptions.SendReliable);
             break;
         }
         case "lava":
@@ -1442,7 +1451,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             return;
         }
         transform.localScale = Vector2.one;
-        transform.position = body.position = GameManager.Instance.GetSpawnpoint(playerId);
+        transform.position = body.position = gotCheckpoint ? GameManager.Instance.checkpoint : GameManager.Instance.GetSpawnpoint(playerId);
         dead = false;
         previousState = state = Enums.PowerupState.Small;
         AnimationController.DisableAllModels();
@@ -1466,10 +1475,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     [PunRPC]
     public void Respawn() {
 
+        state = GameManager.Instance.startingPowerup;
         gameObject.SetActive(true);
         dead = false;
         spawned = true;
-        state = Enums.PowerupState.Small;
         previousState = Enums.PowerupState.Small;
         body.velocity = Vector2.zero;
         wallSlideLeft = false;

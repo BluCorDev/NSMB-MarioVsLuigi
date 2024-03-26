@@ -363,6 +363,16 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 482268095346116758, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: orthoSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 482268096050949391, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: orthoSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 822077676654890402, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -518,6 +528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958562601690126037, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: orthoSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6355964096291475732, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}

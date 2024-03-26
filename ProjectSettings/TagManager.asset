@@ -32,6 +32,9 @@ TagManager:
   - lava
   - MarioBrosPlatform
   - frozencube
+  - harmer
+  - Thwomp
+  - checkpoint
   layers:
   - Default
   - TransparentFX
