@@ -13,13 +13,32 @@ MonoBehaviour:
   m_Name: BlueBrickCoin
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 300261680, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 6764869996083366342, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: -8954504132767192025, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: 3988752837330785565, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
+  - {fileID: -4876230672202525009, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
   m_MinSpeed: 8
   m_MaxSpeed: 8
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 2
-  particleColor: {r: 0.6117647, g: 0.2901961, b: 0, a: 0}
+  particleColor: {r: 0.29411766, g: 0.6901961, b: 0.8627451, a: 0}
   breakableBySmallMario: 0
   breakableByLargeMario: 0
   breakableByGiantMario: 1
@@ -27,4 +46,4 @@ MonoBehaviour:
   breakableByBombs: 1
   bumpIfNotBroken: 0
   bumpIfBroken: 0
-  resultTile: SpecialTiles/EmptyYellowQuestionsmb1
+  resultTile: SpecialTiles/EmptyBlueQuestion

@@ -36018,6 +36018,8 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  Mario: 0
+  Luigi: 1
   state: 0
   previousState: 0
   slowriseGravity: 1.05
@@ -36085,6 +36087,7 @@ MonoBehaviour:
   fireballKnockback: 0
   startedSliding: 0
   canShootProjectile: 0
+  gotCheckpoint: 0
   jumpLandingTimer: 0
   landing: 0
   koyoteTime: 0

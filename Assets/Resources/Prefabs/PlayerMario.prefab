@@ -20081,6 +20081,8 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  Mario: 1
+  Luigi: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05

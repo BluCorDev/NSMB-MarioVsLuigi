@@ -3,7 +3,7 @@ using Photon.Pun;
 
 public class FireballMover : MonoBehaviourPun {
 
-    public bool left, isIceball, isWaterball, IsMagmaball;
+    public bool luigiFireball, left, isIceball, isWaterball, IsMagmaball;
 
     [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f, despawnTimer = 0f;
 

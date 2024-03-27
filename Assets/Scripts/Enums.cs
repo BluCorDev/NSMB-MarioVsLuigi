@@ -189,6 +189,10 @@ public static class Enums {
         public static string Time { get; } = "T";
         public static string DrawTime { get; } = "Dt";
         public static string NewPowerups { get; } = "C";
+        public static string PropellerPowerup { get; } = "Pw";
+        public static string TenPlayersPowerups { get; } = "Tp";
+        public static string Teamsmatch { get; } = "Te";
+        public static string FriendlyFire { get; } = "Fr";
         public static string GameStarted { get; } = "G";
         public static string HostName { get; } = "H";
         public static string Debug { get; } = "D";
