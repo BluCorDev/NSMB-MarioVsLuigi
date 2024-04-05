@@ -23,4 +23,4 @@ MonoBehaviour:
   lives: 0
   ten: 1
   propeller: 0
-  reserveSprite: {fileID: 2046606621, guid: 97133be5bde40df479e4e8edd89b53a3, type: 3}
+  reserveSprite: {fileID: 471738683, guid: 0a73271057f0d1543a04c2c05c00490b, type: 3}

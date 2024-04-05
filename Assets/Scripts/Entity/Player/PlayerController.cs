@@ -635,7 +635,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool inTeam);
             Utils.GetCustomProperty(Enums.NetRoomProperties.FriendlyFire, out bool friendly);
             FireballMover fireball = obj.GetComponentInParent<FireballMover>();
-            if (fireball.photonView.IsMine || hitInvincibilityCounter > 0 || Luigi && fireball.luigiFireball && inTeam && !friendly || Mario && inTeam && !friendly)
+            if (fireball.photonView.IsMine || hitInvincibilityCounter > 0 || Luigi && fireball.luigiFireball && inTeam && !friendly || Mario && !fireball.luigiFireball && inTeam && !friendly)
                 return;
 
             fireball.photonView.RPC(nameof(KillableEntity.Kill), RpcTarget.All);
@@ -813,6 +813,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 return;
             }
             Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teamed);
+            bool maro = Mario;
             bool loogi = Luigi;
             bool upInput = joystick.y > analogDeadzone;
             bool ice = state == Enums.PowerupState.IceFlower;
@@ -832,9 +833,27 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                   projectile = "Magmaball";
                   sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
                 }
-            if (loogi && teamed && !magma && !ice) {
-                projectile = "LuigiFireball";
-                sound = Enums.Sounds.Powerup_Fireball_Shoot;
+            if (teamed) {
+                if (loogi) {
+                    if (ice && !magma) {
+                        projectile = "LuigiIceball";
+                        sound = Enums.Sounds.Powerup_Iceball_Shoot;
+                    } else if (magma && upInput && !ice) {
+                        projectile = "LuigiBigMagmaball";
+                        sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
+                    } else if (magma && !ice) {
+                        projectile = "LuigiMagmaball";
+                        sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
+                    } else {
+                        projectile = "LuigiFireball";
+                        sound = Enums.Sounds.Powerup_Fireball_Shoot;
+                    }
+                } else if (maro) {
+                    if (ice && !magma) {
+                        projectile = "MarioIceball";
+                        sound = Enums.Sounds.Powerup_Iceball_Shoot;
+                    }
+                }
             }
                     Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
             if (Utils.IsTileSolidAtWorldLocation(pos)) {
@@ -908,6 +927,8 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     }
     public void WaterBall()
     {
+        bool maro = Mario;
+        bool loogi = Luigi;
         bool upInput = joystick.y > analogDeadzone;
         string projectile = "Waterball";
         Enums.Sounds sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
@@ -933,7 +954,22 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 return;
             }
         }
-
+        Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teaming);
+        if (loogi && teaming)
+        {
+            projectile = "LuigiWaterBubble";
+            sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
+        }
+        else if (maro && teaming)
+        {
+            projectile = "MarioWaterBubble";
+            sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
+        } 
+        else 
+        {
+            projectile = "Waterball";
+            sound = Enums.Sounds.Powerup_WaterFlower_Shoot;
+        }
         Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
         if (Utils.IsTileSolidAtWorldLocation(pos))
         {

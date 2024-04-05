@@ -559,6 +559,8 @@ namespace NSMB.Utils {
         }
 
         public static Color GetPlayerColor(Player player, float s = 1, float v = 1) {
+            var teamPlayer = player;
+            var teamColor = -1;
 
             int result = -1;
             int count = 0;
@@ -572,7 +574,15 @@ namespace NSMB.Utils {
 
                 count++;
             }
-
+            GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teaming);
+            if (teaming)
+            {
+                teamColor = (int)teamPlayer.CustomProperties[Enums.NetPlayerProperties.Character];
+            }
+            if (teamColor == 1 && teaming)
+                return new Color(0f, 1f, 0f, 1f);
+            else if (teamColor == 0 && teaming)
+                return new Color(1f, 0f, 0f, 1f);
             if (result == -1)
                 return new Color(0.9f, 0.9f, 0.9f, 0.7f);
 

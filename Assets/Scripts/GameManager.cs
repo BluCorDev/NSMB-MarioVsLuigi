@@ -587,7 +587,17 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         gameover = true;
         music.Stop();
         GameObject text = GameObject.FindWithTag("wintext");
-        text.GetComponent<TMP_Text>().text = winner != null ? $"{ winner.GetUniqueNickname() } Wins!" : "It's a draw...";
+        Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teamsOn);
+        var winnerCharacterIndex = -1;
+        if (winner != null && teamsOn)
+        {
+            winnerCharacterIndex = (int)winner.CustomProperties[Enums.NetPlayerProperties.Character];
+            text.GetComponent<TMP_Text>().text = "The" + "\n" + GlobalController.Instance.characters[winnerCharacterIndex].characterName + "Team" + "\n" + "Wins!";
+        }
+        else
+        {
+            text.GetComponent<TMP_Text>().text = winner != null ? $"{ winner.GetUniqueNickname() } Wins!" : "It's a draw...";
+        }
         yield return new WaitForSecondsRealtime(1);
         text.GetComponent<Animator>().SetTrigger("start");
 
@@ -602,8 +612,10 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
         if (draw)
             music.PlayOneShot(Enums.Sounds.UI_Match_Draw.GetClip());
-        else if (win)
+        else if (win && !teamsOn)
             music.PlayOneShot(Enums.Sounds.UI_Match_Win.GetClip());
+        else if (win)
+            music.PlayOneShot(Enums.Sounds.UI_Match_Team_Wins.GetClip());
         else
             music.PlayOneShot(Enums.Sounds.UI_Match_Lose.GetClip());
 
