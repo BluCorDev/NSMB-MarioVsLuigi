@@ -403,6 +403,7 @@ namespace NSMB.Utils {
                 powerups = Resources.LoadAll<Powerup>("Scriptables/Powerups");
 
             GetCustomProperty(Enums.NetRoomProperties.StarRequirement, out int starsToWin);
+            GetCustomProperty(Enums.NetRoomProperties.NSMBPowerups, out bool nsmb);
             GetCustomProperty(Enums.NetRoomProperties.NewPowerups, out bool custom);
             GetCustomProperty(Enums.NetRoomProperties.PropellerPowerup, out bool propel);
             GetCustomProperty(Enums.NetRoomProperties.TenPlayersPowerups, out bool ten);
@@ -418,7 +419,7 @@ namespace NSMB.Utils {
             foreach (Powerup powerup in powerups) {
                 if (powerup.name == "MegaMushroom" && gm.musicState == Enums.MusicState.MegaMushroom)
                     continue;
-                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.propeller && !propel) || (powerup.ten && !ten))
+                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten))
                     continue;
 
                 totalChance += powerup.GetModifiedChance(starsToWin, leaderStars, ourStars);
@@ -428,7 +429,7 @@ namespace NSMB.Utils {
             foreach (Powerup powerup in powerups) {
                 if (powerup.name == "MegaMushroom" && gm.musicState == Enums.MusicState.MegaMushroom)
                     continue;
-                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.propeller && !propel) || (powerup.ten && !ten))
+                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten))
                     continue;
 
                 float chance = powerup.GetModifiedChance(starsToWin, leaderStars, ourStars);

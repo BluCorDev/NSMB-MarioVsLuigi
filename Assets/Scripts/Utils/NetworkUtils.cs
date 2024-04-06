@@ -29,6 +29,7 @@ namespace NSMB.Utils {
             [Enums.NetRoomProperties.Lives] = -1,
             [Enums.NetRoomProperties.Time] = -1,
             [Enums.NetRoomProperties.DrawTime] = false,
+            [Enums.NetRoomProperties.NSMBPowerups] = true,
             [Enums.NetRoomProperties.NewPowerups] = true,
             [Enums.NetRoomProperties.PropellerPowerup] = false,
             [Enums.NetRoomProperties.TenPlayersPowerups] = true,

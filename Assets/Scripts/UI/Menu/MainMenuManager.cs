@@ -30,7 +30,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
     public Button joinRoomBtn, createRoomBtn, startGameBtn;
-    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, teamsEnabled, friendlyFireToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
+    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, nsmbPowerupsEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, teamsEnabled, friendlyFireToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
     public GameObject playersContent, playersPrefab, chatContent, chatPrefab;
     public TMP_InputField nicknameField, starsText, coinsText, livesField, timeField, lobbyJoinField, chatTextField;
     public Slider musicSlider, sfxSlider, masterSlider, lobbyPlayersSlider, changePlayersSlider;
@@ -213,6 +213,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.StarRequirement, ChangeStarRequirement);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.CoinRequirement, ChangeCoinRequirement);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Lives, ChangeLives);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.NSMBPowerups, ChangeNSMBPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.NewPowerups, ChangeNewPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.PropellerPowerup, ChangePropellerPowerup);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.TenPlayersPowerups, ChangeTenPlayersPowerups);
@@ -1439,6 +1440,21 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
         Hashtable properties = new() {
             [Enums.NetRoomProperties.DrawTime] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeNSMBPowerups(bool value)
+    {
+        nsmbPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetNSMBPowerups(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.NSMBPowerups] = toggle.isOn
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
