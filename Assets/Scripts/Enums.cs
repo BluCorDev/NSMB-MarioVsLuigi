@@ -47,7 +47,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 97
+        //CURRENT MAX: 102
 
         //Enemy
         [SoundData("enemy/freeze")]                             Enemy_Generic_Freeze = 0,
@@ -126,6 +126,7 @@ public static class Enums {
         [SoundData("powerup/bubble_shield")]                    Powerup_Bubble_Shield = 97,
         [SoundData("powerup/bubble_bounce")]                    Powerup_BubbleShieldReady = 98,
         [SoundData("powerup/magmaflower_shoot")]                Powerup_MagmaFlower_Shoot = 99,
+        [SoundData("powerup/magmaflower_groundpound")]          Powerup_MagmaFlower_Groundpound = 102,
 
         //UI Sounds / Songs / Jingles
         [SoundData("ui/hurry_up")]                              UI_HurryUp = 60,

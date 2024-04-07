@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     public PlayerAnimationController AnimationController { get; private set; }
 
     public bool onGround, previousOnGround, crushGround, doGroundSnap, jumping, properJump, hitRoof, skidding, turnaround, facingRight = true, singlejump, doublejump, triplejump, bounce, crouching, groundpound, groundpoundLastFrame, sliding, knockback, hitBlock, running, functionallyRunning, jumpHeld, flying, drill, inShell, hitLeft, hitRight, stuckInBlock, alreadyStuckInBlock, propeller, usedPropellerThisJump, stationaryGiantEnd, fireballKnockback, startedSliding, canShootProjectile, gotCheckpoint;
-    public float jumpLandingTimer, landing, koyoteTime, groundpoundCounter, groundpoundStartTimer, pickupTimer, groundpoundDelay, hitInvincibilityCounter, powerupFlash, throwInvincibility, jumpBuffer, giantStartTimer, giantEndTimer, propellerTimer, propellerSpinTimer, fireballTimer, inShield, onShieldCooldown;
+    public float jumpLandingTimer, landing, koyoteTime, groundpoundCounter, groundpoundStartTimer, pickupTimer, groundpoundDelay, hitInvincibilityCounter, powerupFlash, throwInvincibility, jumpBuffer, giantStartTimer, giantEndTimer, propellerTimer, propellerSpinTimer, fireballTimer, inShield, onShieldCooldown, magmaGpCooldown;
     public float invincible, giantTimer, floorAngle, knockbackTimer, pipeTimer, slowdownTimer;
 
     //MOVEMENT STAGES
@@ -2552,6 +2552,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         Utils.TickTimer(ref knockbackTimer, 0, delta);
         Utils.TickTimer(ref inShield, 0, delta);
         Utils.TickTimer(ref onShieldCooldown, 0, delta);
+        Utils.TickTimer(ref magmaGpCooldown, 0, delta);
         Utils.TickTimer(ref pipeTimer, 0, delta);
         Utils.TickTimer(ref wallSlideTimer, 0, delta);
         Utils.TickTimer(ref wallJumpTimer, 0, delta);
@@ -3146,12 +3147,30 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (hitAnyBlock) {
                 if (state != Enums.PowerupState.MegaMushroom) {
                     Enums.Sounds sound = state switch {
-                        Enums.PowerupState.MiniMushroom => Enums.Sounds.Powerup_MiniMushroom_Groundpound,
+                        Enums.PowerupState.MiniMushroom => Enums.Sounds.Powerup_MiniMushroom_Groundpound, Enums.PowerupState.MagmaFlower => Enums.Sounds.Powerup_MagmaFlower_Groundpound,
                         _ => Enums.Sounds.Player_Sound_GroundpoundLanding,
                     };
                     photonView.RPC(nameof(PlaySound), RpcTarget.All, sound);
                     photonView.RPC(nameof(SpawnParticle), RpcTarget.All, "Prefabs/Particle/GroundpoundDust", body.position);
                     groundpoundDelay = 0;
+                    if (magmaGpCooldown > 0 && state != Enums.PowerupState.MagmaFlower)
+                        photonView.RPC(nameof(PlaySound), RpcTarget.All, sound);
+                    photonView.RPC(nameof(SpawnParticle), RpcTarget.All, "Prefabs/Particle/GroundpoundDust", body.position);
+                    groundpoundDelay = 0;
+                    if (state == Enums.PowerupState.MagmaFlower && Luigi && magmaGpCooldown <= 0)
+                    {
+                        PhotonNetwork.Instantiate("Prefabs/LuigiSmallMagmaball", transform.position, Quaternion.identity, 0);
+                        PhotonNetwork.Instantiate("Prefabs/LuigiSmallMagmaball2", transform.position, Quaternion.identity, 0);
+                        magmaGpCooldown = 4f;
+                        photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Powerup_MagmaFlower_Groundpound);
+                    }
+                    else if (state == Enums.PowerupState.MagmaFlower && Mario && magmaGpCooldown <= 0)
+                    {
+                        PhotonNetwork.Instantiate("Prefabs/SmallMagmaball", transform.position, Quaternion.identity, 0);
+                        PhotonNetwork.Instantiate("Prefabs/SmallMagmaball2", transform.position, Quaternion.identity, 0);
+                        magmaGpCooldown = 4f;
+                        photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Powerup_MagmaFlower_Groundpound);
+                    }
                 } else {
                     CameraController.ScreenShake = 0.15f;
                 }

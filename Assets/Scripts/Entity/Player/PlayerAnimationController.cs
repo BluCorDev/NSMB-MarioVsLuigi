@@ -7,7 +7,7 @@ using NSMB.Utils;
 public class PlayerAnimationController : MonoBehaviourPun {
 
     [SerializeField] private Avatar smallAvatar, largeAvatar;
-    [SerializeField] private ParticleSystem dust, sparkles, drillParticle, giantParticle, fireParticle, shieldParticle, shieldReadyParticle;
+    [SerializeField] private ParticleSystem dust, sparkles, drillParticle, giantParticle, fireParticle, shieldParticle, shieldReadyParticle, magmaReadyParticle;
     [SerializeField] private GameObject models, smallModel, largeModel, largeShellExclude, blueShell, propellerHelmet, propeller;
     [SerializeField] private Material glowMaterial;
     [SerializeField] private Color primaryColor = Color.clear, secondaryColor = Color.clear;
@@ -142,9 +142,10 @@ public class PlayerAnimationController : MonoBehaviourPun {
         SetParticleEmission(fireParticle, !gameover && animator.GetBool("firedeath") && controller.dead && deathTimer > deathUpTime);
         SetParticleEmission(shieldParticle, !gameover && controller.inShield > 0);
         SetParticleEmission(shieldReadyParticle, !gameover && controller.state == Enums.PowerupState.WaterFlower && controller.onShieldCooldown <= 0);
+        SetParticleEmission(magmaReadyParticle, !gameover && controller.state == Enums.PowerupState.MagmaFlower && controller.magmaGpCooldown <= 0);
 
             //Blinking
-            if (controller.dead) {
+        if (controller.dead) {
             eyeState = Enums.PlayerEyeState.Death;
         } else {
             if ((blinkTimer -= Time.fixedDeltaTime) < 0)
