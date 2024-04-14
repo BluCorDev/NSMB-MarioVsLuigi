@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     public PlayerAnimationController AnimationController { get; private set; }
 
-    public bool onGround, previousOnGround, crushGround, doGroundSnap, jumping, properJump, hitRoof, skidding, turnaround, facingRight = true, singlejump, doublejump, triplejump, bounce, crouching, groundpound, groundpoundLastFrame, sliding, knockback, hitBlock, running, functionallyRunning, jumpHeld, flying, drill, inShell, hitLeft, hitRight, stuckInBlock, alreadyStuckInBlock, propeller, usedPropellerThisJump, stationaryGiantEnd, fireballKnockback, startedSliding, canShootProjectile, gotCheckpoint;
+    public bool onGround, previousOnGround, crushGround, doGroundSnap, jumping, properJump, hitRoof, skidding, turnaround, facingRight = true, singlejump, doublejump, triplejump, bounce, crouching, groundpound, groundpoundLastFrame, sliding, knockback, hitBlock, running, functionallyRunning, jumpHeld, flying, drill, inShell, hitLeft, hitRight, stuckInBlock, alreadyStuckInBlock, propeller, usedPropellerThisJump, stationaryGiantEnd, fireballKnockback, startedSliding, canShootProjectile, gotCheckpoint, gotCheckpointNR;
     public float jumpLandingTimer, landing, koyoteTime, groundpoundCounter, groundpoundStartTimer, pickupTimer, groundpoundDelay, hitInvincibilityCounter, powerupFlash, throwInvincibility, jumpBuffer, giantStartTimer, giantEndTimer, propellerTimer, propellerSpinTimer, fireballTimer, inShield, onShieldCooldown, magmaGpCooldown;
     public float invincible, giantTimer, floorAngle, knockbackTimer, pipeTimer, slowdownTimer;
 
@@ -676,6 +676,14 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.ResetTiles, null, SendOptions.SendReliable);
             break;
         }
+        case "checkpointNoRestart": {    
+            if (gotCheckpointNR) 
+                return;
+            
+            gotCheckpointNR = true;
+            PlaySoundEverywhere(Enums.Sounds.World_Checkpoint);
+            break;
+        }
         case "lava":
         case "poison": {
             if (!photonView.IsMine)
@@ -815,7 +823,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teamed);
             bool maro = Mario;
             bool loogi = Luigi;
-            bool upInput = joystick.y > analogDeadzone;
+            bool upInput = joystick.y > 0.5f;
             bool ice = state == Enums.PowerupState.IceFlower;
             bool water = state == Enums.PowerupState.WaterFlower;
             bool magma = state == Enums.PowerupState.MagmaFlower;
@@ -827,7 +835,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             
             }
             if (magma && upInput) {
-                projectile = "BigMagmaball";
+                projectile = "MagmaballUp";
                 sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
               } else if (magma) {
                   projectile = "Magmaball";
@@ -839,7 +847,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                         projectile = "LuigiIceball";
                         sound = Enums.Sounds.Powerup_Iceball_Shoot;
                     } else if (magma && upInput && !ice) {
-                        projectile = "LuigiBigMagmaball";
+                        projectile = "LuigiMagmaballUp";
                         sound = Enums.Sounds.Powerup_MagmaFlower_Shoot;
                     } else if (magma && !ice) {
                         projectile = "LuigiMagmaball";
@@ -915,7 +923,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     public void WaterActions()
     {
-        bool upInput = joystick.y > analogDeadzone;
+        bool upInput = joystick.y > 0.5f;
         if (upInput)
         {
             photonView.RPC(nameof(WaterShield), RpcTarget.All);
@@ -1017,7 +1025,28 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         }
 
     }
-
+    public void MagmaGroundpound()
+    {
+        string projectile = "SmallMagmaball";
+        string projectile2 = "SmallMagmaball2";
+        bool loogi = Luigi;
+        Utils.GetCustomProperty(Enums.NetRoomProperties.Teamsmatch, out bool teamed);
+        if (loogi && teamed)
+        {
+            projectile = "LuigiSmallMagmaball";
+            projectile2 = "LuigiSmallMagmaball2";
+        }
+        magmaGpCooldown = 4f;
+        photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Powerup_MagmaFlower_Groundpound);
+        PhotonNetwork.Instantiate($"Prefabs/{projectile}", transform.position, Quaternion.identity, 0, new object[] { !facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround"), });
+        PhotonNetwork.Instantiate($"Prefabs/{projectile2}", transform.position, Quaternion.identity, 0, new object[] { facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround"), });
+    }
+    
+    [PunRPC]
+    public void ResetMagmaGp()
+    {
+        magmaGpCooldown = 3f;
+    }
     public void OnReserveItem(InputAction.CallbackContext context) {
         if (!photonView.IsMine || GameManager.Instance.paused || GameManager.Instance.gameover)
             return;
@@ -1500,6 +1529,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         }
         transform.localScale = Vector2.one;
         transform.position = body.position = gotCheckpoint ? GameManager.Instance.checkpoint : GameManager.Instance.GetSpawnpoint(playerId);
+        transform.position = body.position = gotCheckpointNR ? GameManager.Instance.checkpoint : GameManager.Instance.GetSpawnpoint(playerId);
         dead = false;
         previousState = state = Enums.PowerupState.Small;
         AnimationController.DisableAllModels();
@@ -3147,29 +3177,16 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (hitAnyBlock) {
                 if (state != Enums.PowerupState.MegaMushroom) {
                     Enums.Sounds sound = state switch {
-                        Enums.PowerupState.MiniMushroom => Enums.Sounds.Powerup_MiniMushroom_Groundpound, Enums.PowerupState.MagmaFlower => Enums.Sounds.Powerup_MagmaFlower_Groundpound,
+                        Enums.PowerupState.MiniMushroom => Enums.Sounds.Powerup_MiniMushroom_Groundpound,
                         _ => Enums.Sounds.Player_Sound_GroundpoundLanding,
                     };
                     photonView.RPC(nameof(PlaySound), RpcTarget.All, sound);
                     photonView.RPC(nameof(SpawnParticle), RpcTarget.All, "Prefabs/Particle/GroundpoundDust", body.position);
                     groundpoundDelay = 0;
-                    if (magmaGpCooldown > 0 && state != Enums.PowerupState.MagmaFlower)
-                        photonView.RPC(nameof(PlaySound), RpcTarget.All, sound);
-                    photonView.RPC(nameof(SpawnParticle), RpcTarget.All, "Prefabs/Particle/GroundpoundDust", body.position);
-                    groundpoundDelay = 0;
-                    if (state == Enums.PowerupState.MagmaFlower && Luigi && magmaGpCooldown <= 0)
+                    if (state == Enums.PowerupState.MagmaFlower && magmaGpCooldown <= 0)
                     {
-                        PhotonNetwork.Instantiate("Prefabs/LuigiSmallMagmaball", transform.position, Quaternion.identity, 0);
-                        PhotonNetwork.Instantiate("Prefabs/LuigiSmallMagmaball2", transform.position, Quaternion.identity, 0);
-                        magmaGpCooldown = 4f;
-                        photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Powerup_MagmaFlower_Groundpound);
-                    }
-                    else if (state == Enums.PowerupState.MagmaFlower && Mario && magmaGpCooldown <= 0)
-                    {
-                        PhotonNetwork.Instantiate("Prefabs/SmallMagmaball", transform.position, Quaternion.identity, 0);
-                        PhotonNetwork.Instantiate("Prefabs/SmallMagmaball2", transform.position, Quaternion.identity, 0);
-                        magmaGpCooldown = 4f;
-                        photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Powerup_MagmaFlower_Groundpound);
+                        MagmaGroundpound();
+                        photonView.RPC(nameof(ResetMagmaGp), RpcTarget.All);
                     }
                 } else {
                     CameraController.ScreenShake = 0.15f;

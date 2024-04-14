@@ -35,6 +35,7 @@ TagManager:
   - harmer
   - Thwomp
   - checkpoint
+  - checkpointNoRestart
   layers:
   - Default
   - TransparentFX

@@ -597,7 +597,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: spawnVerticalPowerups
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502118, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -5827,7 +5827,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 44
-      m_TileSpriteIndex: 52
+      m_TileSpriteIndex: 57
       m_TileMatrixIndex: 1
       m_TileColorIndex: 6
       m_TileObjectToInstantiateIndex: 65535
@@ -5837,7 +5837,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 41
-      m_TileSpriteIndex: 49
+      m_TileSpriteIndex: 52
       m_TileMatrixIndex: 1
       m_TileColorIndex: 6
       m_TileObjectToInstantiateIndex: 65535
@@ -10338,14 +10338,14 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -16188639, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -1608899116, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1402905014, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
+    m_Data: {fileID: -16188639, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 6632722949825774667, guid: 02501bf114d1a0a4f98fa72f08e7c70c,
       type: 3}
@@ -10355,8 +10355,8 @@ Tilemap:
     m_Data: {fileID: -349037199, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 1300903088, guid: f4b7221be8b79c94c9c8919163014cb0, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1402905014, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
   - m_RefCount: 32
     m_Data: {fileID: 1519690754, guid: 9f86eb57bae68424aab575ee78e11d04, type: 3}
   - m_RefCount: 2

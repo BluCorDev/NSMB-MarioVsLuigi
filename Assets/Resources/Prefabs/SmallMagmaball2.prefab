@@ -62,6 +62,8 @@ MonoBehaviour:
   isIceball: 0
   isWaterball: 0
   IsMagmaball: 1
+  goesUp: 0
+  terVelocityTreshold: -6.25
   speed: 3.5
   bounceHeight: 6
   terminalVelocity: 6.25

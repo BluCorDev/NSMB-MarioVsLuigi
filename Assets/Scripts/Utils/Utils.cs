@@ -403,10 +403,17 @@ namespace NSMB.Utils {
                 powerups = Resources.LoadAll<Powerup>("Scriptables/Powerups");
 
             GetCustomProperty(Enums.NetRoomProperties.StarRequirement, out int starsToWin);
+            GetCustomProperty(Enums.NetRoomProperties.MushroomPowerup, out bool mush);
+            GetCustomProperty(Enums.NetRoomProperties.FirePowerup, out bool fire);
+            GetCustomProperty(Enums.NetRoomProperties.BlueShellPowerup, out bool bshell);
             GetCustomProperty(Enums.NetRoomProperties.NSMBPowerups, out bool nsmb);
             GetCustomProperty(Enums.NetRoomProperties.NewPowerups, out bool custom);
             GetCustomProperty(Enums.NetRoomProperties.PropellerPowerup, out bool propel);
             GetCustomProperty(Enums.NetRoomProperties.TenPlayersPowerups, out bool ten);
+            GetCustomProperty(Enums.NetRoomProperties.MagmaPowerup, out bool mag);
+            GetCustomProperty(Enums.NetRoomProperties.MegaPowerup, out bool meg);
+            GetCustomProperty(Enums.NetRoomProperties.StarPowerup, out bool star);
+            GetCustomProperty(Enums.NetRoomProperties.OneUpPowerups, out bool oneup);
             GetCustomProperty(Enums.NetRoomProperties.Lives, out int livesOn);
             bool lives = false;
             if (livesOn > 0)
@@ -419,7 +426,7 @@ namespace NSMB.Utils {
             foreach (Powerup powerup in powerups) {
                 if (powerup.name == "MegaMushroom" && gm.musicState == Enums.MusicState.MegaMushroom)
                     continue;
-                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten))
+                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.mush && !mush) || (powerup.fire && !fire) || (powerup.bshell && !bshell) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten) || (powerup.mag && !mag) || (powerup.meg && !meg) || (powerup.star && !star) || (powerup.oneup && !oneup))
                     continue;
 
                 totalChance += powerup.GetModifiedChance(starsToWin, leaderStars, ourStars);
@@ -429,7 +436,7 @@ namespace NSMB.Utils {
             foreach (Powerup powerup in powerups) {
                 if (powerup.name == "MegaMushroom" && gm.musicState == Enums.MusicState.MegaMushroom)
                     continue;
-                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten))
+                if ((powerup.big && !big) || (powerup.vertical && !vertical) || (powerup.custom && !custom) || (powerup.lives && !lives) || (powerup.mush && !mush) || (powerup.fire && !fire) || (powerup.bshell && !bshell) || (powerup.nsmb && !nsmb) || (powerup.propeller && !propel) || (powerup.ten && !ten) || (powerup.mag && !mag) || (powerup.meg && !meg) || (powerup.star && !star) || (powerup.oneup && !oneup))
                     continue;
 
                 float chance = powerup.GetModifiedChance(starsToWin, leaderStars, ourStars);

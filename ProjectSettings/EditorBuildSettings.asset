@@ -90,6 +90,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/10P/BattleField/Ice Battle 1.unity
     guid: b1856a826650b67419d0ac447711b07d
   - enabled: 1
+    path: Assets/Scenes/Levels/10P/BattleField/Ice Battle 2.unity
+    guid: dce06bb2424568f43be1f21c76541d95
+  - enabled: 1
     path: Assets/Scenes/Levels/10P/BattleField/Water Battle 1.unity
     guid: 9e6502b0b5786ad4f94d8e487f5cbba7
   - enabled: 1

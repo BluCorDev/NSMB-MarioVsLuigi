@@ -94,6 +94,7 @@ MonoBehaviour:
   - WaterActions
   - WaterShield
   - InteractWithPlayer
+  - ResetMagmaGp
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

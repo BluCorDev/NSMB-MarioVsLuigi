@@ -19,9 +19,15 @@ MonoBehaviour:
   losingSpawnBonus: -8
   big: 0
   vertical: 0
-  nsmb: 1
+  mush: 1
+  fire: 0
+  bshell: 0
+  nsmb: 0
   custom: 0
   lives: 0
   ten: 0
+  mag: 0
+  meg: 0
+  star: 0
   propeller: 0
   reserveSprite: {fileID: 2064266323, guid: b043d846c8c85b348be7060a284f95d1, type: 3}

@@ -40931,6 +40931,7 @@ MonoBehaviour:
   startedSliding: 0
   canShootProjectile: 0
   gotCheckpoint: 0
+  gotCheckpointNR: 0
   jumpLandingTimer: 0
   landing: 0
   koyoteTime: 0

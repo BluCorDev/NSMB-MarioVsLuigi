@@ -19,6 +19,12 @@ MonoBehaviour:
   losingSpawnBonus: 3.5
   big: 0
   vertical: 0
+  nsmb: 0
   custom: 0
   lives: 0
+  ten: 0
+  mag: 0
+  meg: 0
+  star: 1
+  propeller: 0
   reserveSprite: {fileID: 0}

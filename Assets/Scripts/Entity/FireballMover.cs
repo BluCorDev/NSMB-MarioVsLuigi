@@ -3,7 +3,8 @@ using Photon.Pun;
 
 public class FireballMover : MonoBehaviourPun {
 
-    public bool luigiFireball, left, isIceball, isWaterball, IsMagmaball;
+    public bool luigiFireball, left, isIceball, isWaterball, IsMagmaball, goesUp;
+    public float terVelocityTreshold = -6.25f;
 
     [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f, despawnTimer = 0f;
 
@@ -34,7 +35,13 @@ public class FireballMover : MonoBehaviourPun {
         HandleCollision();
 
         float gravityInOneFrame = body.gravityScale * Physics2D.gravity.y * Time.fixedDeltaTime;
-        body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(-terminalVelocity, body.velocity.y));
+        if (!goesUp)
+            body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(-terminalVelocity, body.velocity.y));
+        else if (goesUp)
+            body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(terminalVelocity, body.velocity.y));
+
+        if (goesUp && terminalVelocity != terVelocityTreshold)
+            terminalVelocity -= Time.fixedDeltaTime * 8f;
 
         if (despawnTimer > 0 && (despawnTimer -= Time.fixedDeltaTime) <= 0) {
             PhotonNetwork.Destroy(gameObject);

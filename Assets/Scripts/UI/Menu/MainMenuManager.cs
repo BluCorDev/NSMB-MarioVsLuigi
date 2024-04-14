@@ -30,7 +30,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
     public Button joinRoomBtn, createRoomBtn, startGameBtn;
-    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, nsmbPowerupsEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, teamsEnabled, friendlyFireToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
+    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, mushroomPowerupsEnabled, firePowerupsEnabled, blueshellPowerupsEnabled, nsmbPowerupsEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, magPowerupsEnabled, megPowerupsEnabled, starPowerupsEnabled, oneupPowerupsEnabled, teamsEnabled, friendlyFireToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
     public GameObject playersContent, playersPrefab, chatContent, chatPrefab;
     public TMP_InputField nicknameField, starsText, coinsText, livesField, timeField, lobbyJoinField, chatTextField;
     public Slider musicSlider, sfxSlider, masterSlider, lobbyPlayersSlider, changePlayersSlider;
@@ -213,10 +213,17 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.StarRequirement, ChangeStarRequirement);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.CoinRequirement, ChangeCoinRequirement);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Lives, ChangeLives);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.MushroomPowerup, ChangeMushroomPowerup);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.FirePowerup, ChangeFirePowerup);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.BlueShellPowerup, ChangeBlueShellPowerup);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.NSMBPowerups, ChangeNSMBPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.NewPowerups, ChangeNewPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.PropellerPowerup, ChangePropellerPowerup);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.TenPlayersPowerups, ChangeTenPlayersPowerups);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.MagmaPowerup, ChangeMagmaPowerup);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.MegaPowerup, ChangeMegaPowerup);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.StarPowerup, ChangeStarPowerup);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.OneUpPowerups, ChangeOneUpPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.Teamsmatch, ChangeTeamsMatch);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.FriendlyFire, ChangeFriendlyFire);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Time, ChangeTime);
@@ -765,6 +772,14 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public void ConfirmSound() {
         sfx.PlayOneShot(Enums.Sounds.UI_Decide.GetClip());
     }
+    public void CursorSound()
+    {
+        sfx.PlayOneShot(Enums.Sounds.UI_Cursor.GetClip());
+    }
+    public void WindowOpen()
+    {
+        sfx.PlayOneShot(Enums.Sounds.UI_WindowOpen.GetClip());
+    }
 
     public void ConnectToDropdownRegion() {
         Region targetRegion = pingSortedRegions[region.value];
@@ -937,6 +952,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         livesField.interactable = PhotonNetwork.IsMasterClient && livesEnabled.isOn;
         timeField.interactable = PhotonNetwork.IsMasterClient && timeEnabled.isOn;
         drawTimeupToggle.interactable = PhotonNetwork.IsMasterClient && timeEnabled.isOn;
+        oneupPowerupsEnabled.interactable = PhotonNetwork.IsMasterClient && livesEnabled.isOn;
 
         Utils.GetCustomProperty(Enums.NetRoomProperties.Debug, out bool debug);
         privateToggleRoom.interactable = PhotonNetwork.IsMasterClient && !debug;
@@ -1473,6 +1489,51 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
+    public void ChangeMushroomPowerup(bool value)
+    {
+        mushroomPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetMushroomPowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.MushroomPowerup] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeFirePowerup(bool value)
+    {
+        firePowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetFirePowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.FirePowerup] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeBlueShellPowerup(bool value)
+    {
+        blueshellPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetBlueShellPowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.BlueShellPowerup] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
     public void ChangeTenPlayersPowerups(bool value)
     {
         tenPowerupsEnabled.SetIsOnWithoutNotify(value);
@@ -1485,6 +1546,66 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         Hashtable properties = new()
         {
             [Enums.NetRoomProperties.TenPlayersPowerups] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeOneUpPowerups(bool value)
+    {
+        oneupPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetOneUpPowerups(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.OneUpPowerups] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeMagmaPowerup(bool value)
+    {
+        magPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetMagmaPowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.MagmaPowerup] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeMegaPowerup(bool value)
+    {
+        megPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetMegaPowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.MegaPowerup] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeStarPowerup(bool value)
+    {
+        starPowerupsEnabled.SetIsOnWithoutNotify(value);
+    }
+    public void SetStarPowerup(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.StarPowerup] = toggle.isOn
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }

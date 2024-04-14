@@ -191,9 +191,16 @@ public static class Enums {
         public static string Time { get; } = "T";
         public static string DrawTime { get; } = "Dt";
         public static string NewPowerups { get; } = "C";
+        public static string MushroomPowerup { get; } = "Mp";
+        public static string FirePowerup { get; } = "Fp";
+        public static string BlueShellPowerup { get; } = "Bs";
         public static string NSMBPowerups { get; } = "Np";
         public static string PropellerPowerup { get; } = "Pw";
         public static string TenPlayersPowerups { get; } = "Tp";
+        public static string MagmaPowerup { get; } = "Mg";
+        public static string MegaPowerup { get; } = "Me";
+        public static string StarPowerup { get; } = "Stp";
+        public static string OneUpPowerups { get; } = "Ous";
         public static string Teamsmatch { get; } = "Te";
         public static string FriendlyFire { get; } = "Fr";
         public static string GameStarted { get; } = "G";
