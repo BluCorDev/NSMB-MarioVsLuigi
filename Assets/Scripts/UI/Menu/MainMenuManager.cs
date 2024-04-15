@@ -953,6 +953,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         timeField.interactable = PhotonNetwork.IsMasterClient && timeEnabled.isOn;
         drawTimeupToggle.interactable = PhotonNetwork.IsMasterClient && timeEnabled.isOn;
         oneupPowerupsEnabled.interactable = PhotonNetwork.IsMasterClient && livesEnabled.isOn;
+        friendlyFireToggle.interactable = PhotonNetwork.IsMasterClient && teamsEnabled.isOn;
 
         Utils.GetCustomProperty(Enums.NetRoomProperties.Debug, out bool debug);
         privateToggleRoom.interactable = PhotonNetwork.IsMasterClient && !debug;

@@ -180,6 +180,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Custom/AquariumPark.unity
     guid: 37899d6aecc5b9940ad1ac866dfc87fa
   - enabled: 1
+    path: Assets/Scenes/Levels/CustomE3Desert.unity
+    guid: 273d695013bd5384386a53212fd07abb
+  - enabled: 1
     path: Assets/Scenes/Levels/Custom/Shark Zombie Old.unity
     guid: 52b4d38314c68754582a0967a152b5fa
   - enabled: 1
