@@ -2206,7 +2206,8 @@ PrefabInstance:
       value: -11.62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8902555319252035003, guid: 43d56bd18d06e9b4abe323618a20a228, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7256241718061403626, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -2403,7 +2404,7 @@ GameObject:
   - component: {fileID: 717271695}
   m_Layer: 5
   m_Name: Newlogo
-  m_TagString: FadeUI
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
