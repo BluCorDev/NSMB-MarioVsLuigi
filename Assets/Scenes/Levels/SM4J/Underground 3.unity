@@ -51205,7 +51205,7 @@ PrefabInstance:
     - target: {fileID: 2500780753419200967, guid: 2dd296828f2080541ab2b41eeda650a7,
         type: 3}
       propertyPath: splashParticle
-      value: Prefabs/Particle/PoisonWaterSplash1
+      value: Prefabs/Particle/WaterEnterSplash
       objectReference: {fileID: 0}
     - target: {fileID: 3106545712320729601, guid: 2dd296828f2080541ab2b41eeda650a7,
         type: 3}
@@ -51239,14 +51239,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3106545712320729601, guid: 2dd296828f2080541ab2b41eeda650a7,
         type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3106545712320729601, guid: 2dd296828f2080541ab2b41eeda650a7,
+        type: 3}
       propertyPath: m_SortingOrder
       value: 9000
       objectReference: {fileID: 0}
     - target: {fileID: 3106545712320729601, guid: 2dd296828f2080541ab2b41eeda650a7,
         type: 3}
+      propertyPath: m_SortingLayerID
+      value: -705177277
+      objectReference: {fileID: 0}
+    - target: {fileID: 3106545712320729601, guid: 2dd296828f2080541ab2b41eeda650a7,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6f6be262eb4b410448f23e52935cdcef, type: 2}
+      objectReference: {fileID: 2100000, guid: 634fba9d56577bd42a8de4e81785a96b, type: 2}
     - target: {fileID: 6004104070224972751, guid: 2dd296828f2080541ab2b41eeda650a7,
         type: 3}
       propertyPath: m_Name
