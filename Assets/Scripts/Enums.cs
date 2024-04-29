@@ -203,6 +203,7 @@ public static class Enums {
         public static string OneUpPowerups { get; } = "Ous";
         public static string Teamsmatch { get; } = "Te";
         public static string FriendlyFire { get; } = "Fr";
+        public static string ProgressiveToRoulette { get; } = "Ptr";
         public static string GameStarted { get; } = "G";
         public static string HostName { get; } = "H";
         public static string Debug { get; } = "D";

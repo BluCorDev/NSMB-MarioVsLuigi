@@ -43,7 +43,9 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
     [ColorUsage(false)] public Color levelUIColor = new(24, 178, 170);
     public bool spawnBigPowerups = true, spawnVerticalPowerups = true;
     public string levelDesigner = "", richPresenceId = "", levelName = "Unknown";
-    private TileBase[] originalTiles;
+    public TileBase[] originalTiles;
+    public TileBase[] replaceableTiles;
+    public TileBase replacementTile;
     private BoundsInt origin;
     private GameObject[] starSpawns;
     private readonly List<GameObject> remainingSpawns = new();
@@ -440,6 +442,14 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
         //Respawning Tilemaps
         origin = new BoundsInt(levelMinTileX, levelMinTileY, 0, levelWidthTile, levelHeightTile, 1);
+        Utils.GetCustomProperty(Enums.NetRoomProperties.ProgressiveToRoulette, out bool ptr);
+        if (ptr)
+            // ruh roulette
+            for (var x = tilemap.cellBounds.min.x; x < tilemap.cellBounds.max.x; x++)
+                for (var y = tilemap.cellBounds.min.y; y < tilemap.cellBounds.max.y; y++)
+                    for (var z = tilemap.cellBounds.min.z; z < tilemap.cellBounds.max.z; z++)
+                        if (replaceableTiles.Contains(tilemap.GetTile(new Vector3Int(x, y, z))))
+                            tilemap.SetTile(new Vector3Int(x, y, z), replacementTile);
         originalTiles = tilemap.GetTilesBlock(origin);
 
         //Star spawning

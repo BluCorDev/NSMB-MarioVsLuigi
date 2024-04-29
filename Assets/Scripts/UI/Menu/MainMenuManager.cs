@@ -30,7 +30,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
     public Button joinRoomBtn, createRoomBtn, startGameBtn;
-    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, mushroomPowerupsEnabled, firePowerupsEnabled, blueshellPowerupsEnabled, nsmbPowerupsEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, magPowerupsEnabled, megPowerupsEnabled, starPowerupsEnabled, oneupPowerupsEnabled, teamsEnabled, friendlyFireToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
+    public Toggle ndsResolutionToggle, fullscreenToggle, livesEnabled, mushroomPowerupsEnabled, firePowerupsEnabled, blueshellPowerupsEnabled, nsmbPowerupsEnabled, powerupsEnabled, propellerEnabled, tenPowerupsEnabled, magPowerupsEnabled, megPowerupsEnabled, starPowerupsEnabled, oneupPowerupsEnabled, teamsEnabled, friendlyFireToggle, progressivetorouletteToggle, timeEnabled, drawTimeupToggle, fireballToggle, vsyncToggle, privateToggle, privateToggleRoom, aspectToggle, spectateToggle, scoreboardToggle, filterToggle;
     public GameObject playersContent, playersPrefab, chatContent, chatPrefab;
     public TMP_InputField nicknameField, starsText, coinsText, livesField, timeField, lobbyJoinField, chatTextField;
     public Slider musicSlider, sfxSlider, masterSlider, lobbyPlayersSlider, changePlayersSlider;
@@ -226,6 +226,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.OneUpPowerups, ChangeOneUpPowerups);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.Teamsmatch, ChangeTeamsMatch);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.FriendlyFire, ChangeFriendlyFire);
+        AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.ProgressiveToRoulette, ChangeProgressiveToRoulette);
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Time, ChangeTime);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.DrawTime, ChangeDrawTime);
         AttemptToUpdateProperty<string>(updatedProperties, Enums.NetRoomProperties.HostName, ChangeLobbyHeader);
@@ -1637,6 +1638,21 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         Hashtable properties = new()
         {
             [Enums.NetRoomProperties.FriendlyFire] = toggle.isOn
+        };
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+    public void ChangeProgressiveToRoulette(bool value)
+    {
+        progressivetorouletteToggle.SetIsOnWithoutNotify(value);
+    }
+    public void SetProgressiveToRoulette(Toggle toggle)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+            return;
+
+        Hashtable properties = new()
+        {
+            [Enums.NetRoomProperties.ProgressiveToRoulette] = toggle.isOn
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }

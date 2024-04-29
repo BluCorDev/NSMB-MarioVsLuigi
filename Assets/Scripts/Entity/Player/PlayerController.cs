@@ -668,10 +668,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             break;
         }
         case "checkpoint": {    
-            if (gotCheckpoint) 
+            if (gotCheckpointNR) 
                 return;
             
-            gotCheckpoint = true;
+            gotCheckpointNR = true;
             PlaySoundEverywhere(Enums.Sounds.World_Checkpoint);
             GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.ResetTiles, null, SendOptions.SendReliable);
             break;

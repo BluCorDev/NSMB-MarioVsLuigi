@@ -42,6 +42,7 @@ namespace NSMB.Utils {
             [Enums.NetRoomProperties.OneUpPowerups] = false,
             [Enums.NetRoomProperties.Teamsmatch] = false,
             [Enums.NetRoomProperties.FriendlyFire] = false,
+            [Enums.NetRoomProperties.ProgressiveToRoulette] = false,
             [Enums.NetRoomProperties.GameStarted] = false,
             [Enums.NetRoomProperties.HostName] = "",
             [Enums.NetRoomProperties.Debug] = false,
