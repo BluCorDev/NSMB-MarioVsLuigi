@@ -3918,7 +3918,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 76.7
+  m_fontSize: 76.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5292,8 +5292,16 @@ MonoBehaviour:
   spawnBigPowerups: 1
   spawnVerticalPowerups: 1
   levelDesigner: 
-  richPresenceId: 
+  richPresenceId: mainmenu
   levelName: Unknown
+  replaceableTiles:
+  - {fileID: 11400000, guid: 13fa1d1be77b6e542a0e52df08faf5c8, type: 2}
+  - {fileID: 11400000, guid: 5ca3423ea52ed94408852305b7aaae70, type: 2}
+  - {fileID: 11400000, guid: 8fe030d8ee4a78249b730da87f0ce6a9, type: 2}
+  - {fileID: 11400000, guid: 526e7fe5c48f4a04aa0fc6cb1309f03d, type: 2}
+  - {fileID: 11400000, guid: 2296eec92ce34494d9d91cf6e7f4dd48, type: 2}
+  - {fileID: 11400000, guid: c699c399c5b0cf140bdd7f6787e985f6, type: 2}
+  replacementTile: {fileID: 11400000, guid: 66397b3dacb3dc243a7ac8608d7036ce, type: 2}
   startServerTime: 0
   endServerTime: -1
   startRealTime: -1

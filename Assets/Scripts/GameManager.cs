@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
     [ColorUsage(false)] public Color levelUIColor = new(24, 178, 170);
     public bool spawnBigPowerups = true, spawnVerticalPowerups = true;
     public string levelDesigner = "", richPresenceId = "", levelName = "Unknown";
-    public TileBase[] originalTiles;
+    private TileBase[] originalTiles;
     public TileBase[] replaceableTiles;
     public TileBase replacementTile;
     private BoundsInt origin;
