@@ -24,7 +24,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public GameObject lobbiesContent, lobbyPrefab;
     bool quit, validName;
     public GameObject connecting;
-    public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
+    public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox, guideMenu;
     public GameObject[] levelCameraPositions;
     public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel;
     public TMP_Dropdown levelDropdown, characterDropdown;
@@ -34,7 +34,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public GameObject playersContent, playersPrefab, chatContent, chatPrefab;
     public TMP_InputField nicknameField, starsText, coinsText, livesField, timeField, lobbyJoinField, chatTextField;
     public Slider musicSlider, sfxSlider, masterSlider, lobbyPlayersSlider, changePlayersSlider;
-    public GameObject mainMenuSelected, optionsSelected, lobbySelected, currentLobbySelected, createLobbySelected, creditsSelected, controlsSelected, privateSelected, reconnectSelected, updateBoxSelected;
+    public GameObject mainMenuSelected, optionsSelected, lobbySelected, currentLobbySelected, createLobbySelected, creditsSelected, controlsSelected, privateSelected, reconnectSelected, updateBoxSelected, guideSelected;
     public GameObject errorBox, errorButton, rebindPrompt, reconnectBox;
     public TMP_Text errorText, rebindCountdown, rebindText, reconnectText, updateText;
     public TMP_Dropdown region;
@@ -634,6 +634,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
     }
@@ -649,6 +650,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
         updateBox.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
 
@@ -664,6 +666,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         foreach (RoomIcon room in currentRooms.Values)
             room.UpdateUI(room.room);
@@ -681,6 +684,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         privateToggle.isOn = false;
 
@@ -697,6 +701,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(optionsSelected);
     }
@@ -711,6 +716,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(controlsSelected);
     }
@@ -725,6 +731,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(true);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(creditsSelected);
     }
@@ -739,8 +746,25 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(true);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+        guideMenu.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(currentLobbySelected);
+    }
+    public void OpenGuideMenu()
+    {
+        title.SetActive(false);
+        bg.SetActive(true);
+        mainMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        controlsMenu.SetActive(false);
+        lobbyMenu.SetActive(false);
+        createLobbyPrompt.SetActive(false);
+        inLobbyMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        privatePrompt.SetActive(false);
+        guideMenu.SetActive(true);
+
+        EventSystem.current.SetSelectedGameObject(guideSelected);
     }
     public void OpenPrivatePrompt() {
         privatePrompt.SetActive(true);
