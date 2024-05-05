@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EmptyRedQuestionssmb1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -388279244, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
+  - {fileID: -96041236, guid: bd37b3cc18a65c143b7219514e41dac8, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

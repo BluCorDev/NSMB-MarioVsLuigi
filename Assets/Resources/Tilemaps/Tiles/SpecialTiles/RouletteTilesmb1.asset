@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: RouletteTilesmb1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -1359925507, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
-  - {fileID: 1833391582, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
-  - {fileID: 1327896238, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
-  - {fileID: 1833391582, guid: a116b0dc54cd4b843a984185dd09f22c, type: 3}
+  - {fileID: -1635637112, guid: bd37b3cc18a65c143b7219514e41dac8, type: 3}
+  - {fileID: 1693898933, guid: bd37b3cc18a65c143b7219514e41dac8, type: 3}
+  - {fileID: 75274261, guid: bd37b3cc18a65c143b7219514e41dac8, type: 3}
+  - {fileID: 1693898933, guid: bd37b3cc18a65c143b7219514e41dac8, type: 3}
   m_MinSpeed: 4
   m_MaxSpeed: 4
   m_AnimationStartTime: 0
