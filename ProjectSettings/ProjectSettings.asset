@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: ipodtouch0218
-  productName: NSMB-MarioVsLuigi
+  companyName: RosyRose-Among
+  productName: MvL-HitEm
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
@@ -293,7 +293,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 3536fc6b994f807498f0df6fa85fd2fe, type: 3}
+      m_Icon: {fileID: 2800000, guid: e8d9eab8b7cd01b4fa54926b93ebf33b, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
