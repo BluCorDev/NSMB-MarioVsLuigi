@@ -46226,7 +46226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 895565995}
-  currentAudio: {fileID: 11400000, guid: 98af2c48785824844afe26562d0bcc45, type: 2}
+  currentAudio: {fileID: 11400000, guid: 6e1edd9dd02cf7044b4388f8fc2245af, type: 2}
   playOnAwake: 1
 --- !u!1 &897850575
 GameObject:

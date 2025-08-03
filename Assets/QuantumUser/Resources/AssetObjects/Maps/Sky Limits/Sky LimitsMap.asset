@@ -92,13 +92,6 @@ MonoBehaviour:
     - rid: 4368462282447912964
     - rid: 4368462282447912965
   - Components:
-    - rid: 6748451021489438720
-    - rid: 6748451021489438721
-    - rid: 6748451021489438722
-    - rid: 6748451021489438723
-    - rid: 6748451021489438724
-    - rid: 6748451021489438725
-  - Components:
     - rid: 3516807195779923968
     - rid: 3516807195779923969
     - rid: 3516807195779923970
@@ -494,7 +487,7 @@ MonoBehaviour:
       type: {class: EnterablePipePrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
       data:
         OtherPipe:
-          SceneIndexPlusOne: 34
+          SceneIndexPlusOne: 33
         IsEnterable:
           Value: 1
         IsCeilingPipe:
@@ -511,7 +504,7 @@ MonoBehaviour:
       data:
         Position:
           X:
-            RawValue: 1064960
+            RawValue: 1032192
           Y:
             RawValue: 147456
         Rotation:
@@ -1170,9 +1163,9 @@ MonoBehaviour:
       data:
         Position:
           X:
-            RawValue: 1490944
+            RawValue: 1523712
           Y:
-            RawValue: -49152
+            RawValue: 147456
         Rotation:
           RawValue: 0
     - rid: 3516807195779923969
@@ -1468,7 +1461,7 @@ MonoBehaviour:
           X:
             RawValue: 1556480
           Y:
-            RawValue: -16384
+            RawValue: 147456
         Rotation:
           RawValue: 0
     - rid: 4368462282447912961
@@ -1775,7 +1768,7 @@ MonoBehaviour:
       data:
         Position:
           X:
-            RawValue: 1097728
+            RawValue: 1064960
           Y:
             RawValue: 147456
         Rotation:
@@ -2096,80 +2089,6 @@ MonoBehaviour:
       data:
         CallbackFlags:
           Value: 0
-    - rid: 6748451021489438720
-      type: {class: Transform2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
-      data:
-        Position:
-          X:
-            RawValue: 1425408
-          Y:
-            RawValue: -81920
-        Rotation:
-          RawValue: 0
-    - rid: 6748451021489438721
-      type: {class: PhysicsCollider2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
-      data:
-        ShapeConfig:
-          ShapeType: 4
-          PolygonCollider:
-            Id:
-              Value: 0
-          CircleRadius:
-            RawValue: 0
-          CapsuleSize:
-            X:
-              RawValue: 0
-            Y:
-              RawValue: 0
-          EdgeExtent:
-            RawValue: 0
-          BoxExtents:
-            X:
-              RawValue: 14336
-            Y:
-              RawValue: 16384
-          PositionOffset:
-            X:
-              RawValue: 0
-            Y:
-              RawValue: 0
-          RotationOffset:
-            RawValue: 0
-          UserTag: 0
-          IsPersistent: 1
-          CompoundShapes: []
-        Layer: 9
-        IsTrigger: 1
-        PhysicsMaterial:
-          Id:
-            Value: 0
-    - rid: 6748451021489438722
-      type: {class: PhysicsCallbacks2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
-      data:
-        CallbackFlags:
-          Value: 0
-    - rid: 6748451021489438723
-      type: {class: CoinPrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
-      data:
-        CoinType:
-          Value: 1
-        Lifetime: 0
-        UncollectableFrames: 0
-    - rid: 6748451021489438724
-      type: {class: CullablePrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
-      data:
-        Offset:
-          X:
-            RawValue: 0
-          Y:
-            RawValue: 0
-        BroadRadius:
-          RawValue: 26214
-    - rid: 6748451021489438725
-      type: {class: InteractablePrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
-      data:
-        ColliderDisabled:
-          Value: 0
     - rid: 7251944089069813760
       type: {class: Transform2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
       data:
@@ -2226,7 +2145,7 @@ MonoBehaviour:
       type: {class: EnterablePipePrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
       data:
         OtherPipe:
-          SceneIndexPlusOne: 33
+          SceneIndexPlusOne: 32
         IsEnterable:
           Value: 1
         IsCeilingPipe:

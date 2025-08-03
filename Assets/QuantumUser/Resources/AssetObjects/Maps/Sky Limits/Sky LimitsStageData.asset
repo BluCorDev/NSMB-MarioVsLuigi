@@ -19,8 +19,8 @@ MonoBehaviour:
   ShowAuthorAndComposer: 1
   StageAuthor: RosyRose, Among
   MusicComposer: Leon Riskin
-  TranslationKey: levels.custom.Sky Limits
-  GroupingTranslationKey: 
+  TranslationKey: level.custom.skylimits
+  GroupingTranslationKey: level.header.10p2
   DiscordStageImage: 
   Icon: {fileID: 21300000, guid: e64cca18721d2d14e95065a64ba3f71c, type: 3}
   OverrideAutomaticTilemapSettings: 0
@@ -553,22 +553,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -1083,22 +1083,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -1613,22 +1613,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -2143,22 +2143,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 456594766067892042
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -2678,17 +2678,17 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 288735638719960798
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 456594766067892042
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3213,22 +3213,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 288735638719960798
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 286369063460476805
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 384691671949675441
+        Value: 430356024357194911
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3753,12 +3753,12 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 524107900821862337
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 384691671949675441
     Rotation: 0
     Flags: 0
   - Tile:
