@@ -60,8 +60,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/BluCor maps/Cloudy Citadel.unity
     guid: d8d8107859ab00f4fa2a935f62eed138
   - enabled: 1
-    path: Assets/Scenes/Levels/ProtestCity.unity
-    guid: 7e3fffca3f459c149a18880086f6d282
+    path: Assets/Scenes/Levels/Customs/CustomMushValley.unity
+    guid: 63fe922177cbaf44d97a9078c5f609e8
+  - enabled: 1
+    path: Assets/Scenes/Levels/ToxicPlant.unity
+    guid: b527653b53aa70c4c8ff73065a572f65
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: b02bce592fba21b4982d8cf5e36a1459,
       type: 2}

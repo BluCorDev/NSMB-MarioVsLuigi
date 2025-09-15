@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075af0e881e112348abe562216ddc298, type: 3}
+  m_Name: MusicLevelToxicPlant
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/AssetObjects/Music/MusicLevelToxicPlant
+    Guid:
+      Value: 304132758773292065
+  clip: {fileID: 8300000, guid: 494341bc55e5a07488aafa9e41b6c781, type: 3}
+  fastClip: {fileID: 8300000, guid: 8e251e0101c1d6c4cb5a8a0e9faf7d13, type: 3}
+  loopStartSeconds: 0
+  loopEndSeconds: 0
+  speedupFactor: 1.25

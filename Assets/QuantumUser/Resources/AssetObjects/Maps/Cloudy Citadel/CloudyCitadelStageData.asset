@@ -21,8 +21,8 @@ MonoBehaviour:
   MusicComposer: Sonic Venture OST
   TranslationKey: Cloudy Citadel
   GroupingTranslationKey: '- Experimental -'
-  DiscordStageImage: 
-  Icon: {fileID: 21300000, guid: e64cca18721d2d14e95065a64ba3f71c, type: 3}
+  DiscordStageImage: level-cloudycitadel
+  Icon: {fileID: 21300000, guid: e0ee041895ffebc42aea77ed4acce4cd, type: 3}
   OverrideAutomaticTilemapSettings: 1
   TileDimensions:
     X: 64

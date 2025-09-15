@@ -21,7 +21,7 @@ MonoBehaviour:
   MusicComposer: 
   TranslationKey: level.custom.enchantedforest
   GroupingTranslationKey: level.header.10p2
-  DiscordStageImage: 
+  DiscordStageImage: level-enchantedforest
   Icon: {fileID: 21300000, guid: e64cca18721d2d14e95065a64ba3f71c, type: 3}
   OverrideAutomaticTilemapSettings: 0
   TileDimensions:
