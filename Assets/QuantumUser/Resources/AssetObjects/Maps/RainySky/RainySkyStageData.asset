@@ -10,41 +10,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87a21947f7668244a99163d214ccc8c0, type: 3}
-  m_Name: ToxicPlantStageData
+  m_Name: RainySkyStageData
   m_EditorClassIdentifier: 
   Identifier:
-    Path: QuantumUser/Resources/AssetObjects/Maps/ToxicPlant/ToxicPlantStageData
+    Path: QuantumUser/Resources/AssetObjects/Maps/RainySky/RainySkyStageData
     Guid:
-      Value: 525122926309240791
+      Value: 329795618021087810
   ShowAuthorAndComposer: 1
   StageAuthor: RosyRose, Among
-  MusicComposer: Karl Brueggemann
-  TranslationKey: Toxic Plant
+  MusicComposer: Tomoya Ohtani
+  TranslationKey: Rainy Sky
   GroupingTranslationKey: '- Classic Maps -'
-  DiscordStageImage: level-toxicplant
-  Icon: {fileID: 21300000, guid: 90554a022e157a84eb7b4b38d96a06aa, type: 3}
-  OverrideAutomaticTilemapSettings: 1
+  DiscordStageImage: level-unknown
+  Icon: {fileID: 21300000, guid: e64cca18721d2d14e95065a64ba3f71c, type: 3}
+  OverrideAutomaticTilemapSettings: 0
   TileDimensions:
-    X: 110
-    Y: 18
+    X: 103
+    Y: 16
   TileOrigin:
-    X: -96
-    Y: -11
+    X: -30
+    Y: -10
   TilemapWorldPosition:
     X:
       RawValue: 0
     Y:
       RawValue: 0
   IsWrappingLevel: 1
-  ExtendCeilingHitboxes: 1
+  ExtendCeilingHitboxes: 0
   Spawnpoint:
     X:
-      RawValue: -917504
+      RawValue: 65536
     Y:
-      RawValue: 0
+      RawValue: -39977
   SpawnpointArea:
     X:
-      RawValue: 30147
+      RawValue: 44564
     Y:
       RawValue: 52429
   OverrideAutomaticCameraSettings: 1
@@ -57,18 +57,18 @@ MonoBehaviour:
     X:
       RawValue: 65536000
     Y:
-      RawValue: 222822
+      RawValue: -163840
   UIColor:
     R: 0
-    G: 255
-    B: 136
+    G: 54
+    B: 142
     A: 255
   HidePlayersOnMinimap: 0
-  SpawnBigPowerups: 0
+  SpawnBigPowerups: 1
   SpawnVerticalPowerups: 1
   MainMusic:
   - Id:
-      Value: 304132758773292065
+      Value: 379420655943775149
   InvincibleMusic:
     Id:
       Value: 289056355789154037
@@ -78,2281 +78,6 @@ MonoBehaviour:
   TileData:
   - Tile:
       Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 328560811042690244
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 328560811042690244
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 346483283990386521
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 500784907391135895
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 328560811042690244
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -2364,131 +89,26 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 65534
     Flags: 1
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -2503,22 +123,7 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 346483283990386521
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 500784907391135895
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -2548,1031 +153,471 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 301443633650299763
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 422269871005091107
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 65534
     Flags: 1
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 362633902293829697
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 362633902293829697
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 362633902293829697
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
     Rotation: 65534
     Flags: 1
   - Tile:
       Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 310115220637214348
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 522254609600234976
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 358976766751724603
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 522254609600234976
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 358976766751724603
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 307276956400162433
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 388968237896110427
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 467425136972701180
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 524107900821862337
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 384691671949675441
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 524107900821862337
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 384691671949675441
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 420808497351326677
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 460650640155255546
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 420808497351326677
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 460650640155255546
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -3603,26 +648,6 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 286369063460476805
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 430356024357194911
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -3639,141 +664,126 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 304508489676365718
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 462723172965729652
     Rotation: 65534
     Flags: 1
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3808,47 +818,47 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3873,27 +883,27 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3908,17 +918,42 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -3963,12 +998,12 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4084,8 +1119,18 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -4099,6 +1144,26 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4114,10 +1179,20 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
+        Value: 462723172965729652
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4153,22 +1228,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4208,17 +1283,17 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4253,89 +1328,99 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -4348,42 +1433,42 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4403,51 +1488,141 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 524107900821862337
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 384691671949675441
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4459,8 +1634,18 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
     Rotation: 0
     Flags: 0
+  - Tile:
+      Id:
+        Value: 462723172965729652
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -4509,10 +1694,20 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 493166760768401455
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
+        Value: 493166760768401455
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4544,6 +1739,21 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4588,6 +1798,21 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4619,10 +1844,40 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
+        Value: 456594766067892042
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 288735638719960798
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4693,42 +1948,42 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 456594766067892042
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4748,32 +2003,137 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4789,8 +2149,18 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 493166760768401455
     Rotation: 0
     Flags: 0
+  - Tile:
+      Id:
+        Value: 493166760768401455
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -4824,10 +2194,50 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 413777132846127068
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 378209660040255156
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 276326574231251417
     Rotation: 0
     Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
+        Value: 378209660040255156
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 413777132846127068
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4844,6 +2254,86 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4859,10 +2349,45 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 393438471761372052
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 288735638719960798
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
         Value: 0
     Rotation: 0
     Flags: 0
@@ -4933,7 +2458,7 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 362633902293829697
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -4943,162 +2468,982 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 288735638719960798
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 456594766067892042
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 413777132846127068
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 378209660040255156
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 276326574231251417
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 378209660040255156
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 413777132846127068
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 422208924370911200
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 338239030946693709
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 338239030946693709
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 422208924370911200
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 288735638719960798
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495296165798827834
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 422208924370911200
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 338239030946693709
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 495430943892776651
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 338239030946693709
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 422208924370911200
+    Rotation: 65534
+    Flags: 1
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 0
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
+        Value: 362633902293829697
+    Rotation: 0
+    Flags: 0
+  - Tile:
+      Id:
         Value: 342476424856818660
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
-        Value: 362633902293829697
     Rotation: 0
     Flags: 0
   - Tile:
@@ -5108,11 +3453,6 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 342476424856818660
-    Rotation: 0
-    Flags: 0
-  - Tile:
-      Id:
         Value: 362633902293829697
     Rotation: 0
     Flags: 0
@@ -5208,139 +3548,139 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 467425136972701180
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 467425136972701180
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 467425136972701180
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 467425136972701180
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
-    Rotation: 0
-    Flags: 0
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -7078,12 +5418,12 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 346483283990386521
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 500784907391135895
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -7358,22 +5698,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 346483283990386521
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 500784907391135895
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -7628,22 +5968,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -7893,37 +6233,37 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8178,32 +6518,32 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8443,67 +6783,67 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8593,12 +6933,12 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 346483283990386521
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 500784907391135895
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8703,22 +7043,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8728,22 +7068,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -8933,127 +7273,127 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 314654948026308668
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9143,12 +7483,12 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9218,22 +7558,22 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9273,57 +7613,57 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9483,127 +7823,127 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 328560811042690244
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 286369063460476805
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 430356024357194911
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9693,187 +8033,187 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 495296165798827834
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
-    Rotation: 0
-    Flags: 0
+        Value: 495296165798827834
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 304508489676365718
+        Value: 0
     Rotation: 0
     Flags: 0
   - Tile:
@@ -9978,46 +8318,6 @@ MonoBehaviour:
     Flags: 0
   BigStarSpawnpoints:
   - X:
-      RawValue: -425984
+      RawValue: 425984
     Y:
       RawValue: -98304
-  - X:
-      RawValue: -98304
-    Y:
-      RawValue: -163840
-  - X:
-      RawValue: -2818048
-    Y:
-      RawValue: -98304
-  - X:
-      RawValue: -2621440
-    Y:
-      RawValue: -131072
-  - X:
-      RawValue: -2162688
-    Y:
-      RawValue: -229376
-  - X:
-      RawValue: -1769472
-    Y:
-      RawValue: -163840
-  - X:
-      RawValue: 458752
-    Y:
-      RawValue: -98304
-  - X:
-      RawValue: 163840
-    Y:
-      RawValue: -32768
-  - X:
-      RawValue: -1458176
-    Y:
-      RawValue: -131072
-  - X:
-      RawValue: -2260992
-    Y:
-      RawValue: -65536
-  - X:
-      RawValue: -1966080
-    Y:
-      RawValue: -65536

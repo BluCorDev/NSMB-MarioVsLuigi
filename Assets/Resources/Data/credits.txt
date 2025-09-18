@@ -1,3 +1,36 @@
+<color=yellow>- MvLO: Hit'Em! -</color>
+<color=yellow>Mod by</color>
+Among
+RosyRose
+
+<color=yellow>Level Design</color>
+Among
+RosyRose
+
+<color=yellow>Playtesters</color>
+FrostyCake
+KingKittyTurnip
+Vic
+Zomble
+
+<color=yellow>Music</color>
+Five Nights at Freddy's World
+Sonic: After the Sequel
+Sonic Lost World
+Sonic Venture
+Sonic Esque Vol. III
+Sonic Unleashed
+Spark The Electric Jester
+
+<color=yellow>Logo by</color>
+RosyRose
+
+<color=#ECA8BF>Thanks for playing! Love y'all! <3</color>
+
+
+<color=red>- Vanilla Credits -</color>
+
+
 <color=yellow>{ui.about.credits.gameby}</color>
 ipodtouch0218
 
