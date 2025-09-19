@@ -7,6 +7,9 @@ RosyRose
 Among
 RosyRose
 
+<color=yellow>Contributors</color>
+KingKittyTurnip
+
 <color=yellow>Playtesters</color>
 FrostyCake
 KingKittyTurnip
@@ -24,6 +27,9 @@ Spark The Electric Jester
 
 <color=yellow>Logo by</color>
 RosyRose
+
+<color=yellow>Honorable Mention</color>
+Haiii Vin!!!
 
 <color=#ECA8BF>Thanks for playing! Love y'all! <3</color>
 

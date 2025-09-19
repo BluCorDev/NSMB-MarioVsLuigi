@@ -14547,6 +14547,10 @@ MonoBehaviour:
       Id:
         Value: 471262197839969229
     CameraPosition: {fileID: 444386622}
+  - Map:
+      Id:
+        Value: 429067136102846748
+    CameraPosition: {fileID: 444386622}
 --- !u!1 &357520313
 GameObject:
   m_ObjectHideFlags: 0

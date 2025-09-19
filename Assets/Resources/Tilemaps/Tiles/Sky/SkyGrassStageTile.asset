@@ -24,4 +24,4 @@ MonoBehaviour:
   IsSlideableGround: 0
   IsPolygon: 1
   FootstepSound: 31
-  FootstepParticle: 9
+  FootstepParticle: 0
