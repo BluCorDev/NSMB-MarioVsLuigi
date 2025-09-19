@@ -8,6 +8,7 @@ Among
 RosyRose
 
 <color=yellow>Contributors</color>
+FrostyCake
 KingKittyTurnip
 
 <color=yellow>Playtesters</color>
