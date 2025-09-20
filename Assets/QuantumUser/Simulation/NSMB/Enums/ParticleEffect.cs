@@ -10,4 +10,6 @@ public enum ParticleEffect : byte {
     Puff = 8,
     Walk_Stars = 9,
     Walk_Stars_Right = 10,
+    Walk_GroundWater = 11,
+    Walk_GroundWater_Right = 12,
 }
