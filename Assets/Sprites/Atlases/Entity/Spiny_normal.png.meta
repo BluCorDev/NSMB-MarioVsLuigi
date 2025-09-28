@@ -1,0 +1,2142 @@
+fileFormatVersion: 2
+guid: b789b20b62623eb4eae23aa94efead74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4125907457429974961
+    second: Spiny_normal_0
+  - first:
+      213: 1413333843128182086
+    second: Spiny_normal_1
+  - first:
+      213: -4955330295110913050
+    second: Spiny_normal_2
+  - first:
+      213: -8306171367645208803
+    second: Spiny_normal_3
+  - first:
+      213: -790049641233275834
+    second: Spiny_normal_4
+  - first:
+      213: 7046060876899542981
+    second: Spiny_normal_5
+  - first:
+      213: -7805859010344648495
+    second: Spiny_normal_6
+  - first:
+      213: -4068626079131083595
+    second: Spiny_normal_7
+  - first:
+      213: -5335533110900392778
+    second: Spiny_normal_8
+  - first:
+      213: 4295481983531903251
+    second: Spiny_normal_9
+  - first:
+      213: 972070659331305366
+    second: Spiny_normal_10
+  - first:
+      213: -4980232379816155419
+    second: Spiny_normal_11
+  - first:
+      213: -2564395097703931268
+    second: Spiny_normal_12
+  - first:
+      213: 5868009736704103002
+    second: Spiny_normal_13
+  - first:
+      213: 5704362112078794206
+    second: Spiny_normal_14
+  - first:
+      213: -8950205333913586247
+    second: Spiny_normal_15
+  - first:
+      213: 4043570544637623697
+    second: Spiny_normal_16
+  - first:
+      213: -4585350308447446216
+    second: Spiny_normal_17
+  - first:
+      213: 6618246263772099927
+    second: Spiny_normal_18
+  - first:
+      213: 6374405311965662454
+    second: Spiny_normal_19
+  - first:
+      213: -3649428593575534584
+    second: Spiny_normal_20
+  - first:
+      213: 3187214668350865957
+    second: Spiny_normal_21
+  - first:
+      213: 4432303486676463359
+    second: Spiny_normal_22
+  - first:
+      213: 3886935421246840117
+    second: Spiny_normal_23
+  - first:
+      213: -7498806347080554660
+    second: Spiny_normal_24
+  - first:
+      213: -8128053892456473826
+    second: Spiny_normal_25
+  - first:
+      213: 5935285978546092579
+    second: Spiny_normal_26
+  - first:
+      213: -2973275754659947962
+    second: Spiny_normal_27
+  - first:
+      213: -4413390762856423919
+    second: Spiny_normal_28
+  - first:
+      213: 685800421959773003
+    second: Spiny_normal_29
+  - first:
+      213: -1343013781726254166
+    second: Spiny_normal_30
+  - first:
+      213: 5580349468561489308
+    second: Spiny_normal_31
+  - first:
+      213: 5033617864871389153
+    second: Spiny_normal_32
+  - first:
+      213: -7484285810236022416
+    second: Spiny_normal_33
+  - first:
+      213: -6788529566157200777
+    second: Spiny_normal_34
+  - first:
+      213: 4868893880235748857
+    second: Spiny_normal_35
+  - first:
+      213: 4557552714216041984
+    second: Spiny_normal_36
+  - first:
+      213: 7290310951418752262
+    second: Spiny_normal_37
+  - first:
+      213: -4060311143743905046
+    second: Spiny_normal_38
+  - first:
+      213: 125788727842195502
+    second: Spiny_normal_39
+  - first:
+      213: -4045738728703242237
+    second: Spiny_normal_40
+  - first:
+      213: 3204781020712460612
+    second: Spiny_normal_41
+  - first:
+      213: -6312525600943941780
+    second: Spiny_normal_42
+  - first:
+      213: -2922277801530408294
+    second: Spiny_normal_43
+  - first:
+      213: -7358000294217629456
+    second: Spiny_normal_44
+  - first:
+      213: 1128264123327290720
+    second: Spiny_normal_45
+  - first:
+      213: 5890538868724850619
+    second: Spiny_normal_46
+  - first:
+      213: 3113791826550329241
+    second: Spiny_normal_47
+  - first:
+      213: -2548589280563121679
+    second: Spiny_normal_48
+  - first:
+      213: -4905259970838280237
+    second: Spiny_normal_49
+  - first:
+      213: -3971942674630418179
+    second: Spiny_normal_50
+  - first:
+      213: 7224655109138372121
+    second: Spiny_normal_51
+  - first:
+      213: 6380262973967766163
+    second: Spiny_normal_52
+  - first:
+      213: -179501979003470992
+    second: Spiny_normal_53
+  - first:
+      213: 233028594385630857
+    second: Spiny_normal_54
+  - first:
+      213: 8418685148431455215
+    second: Spiny_normal_55
+  - first:
+      213: 460335206639439445
+    second: Spiny_normal_56
+  - first:
+      213: 1120152682579368607
+    second: Spiny_normal_57
+  - first:
+      213: -8428367372966933569
+    second: Spiny_normal_58
+  - first:
+      213: 6700605287935132921
+    second: Spiny_normal_59
+  - first:
+      213: 2134255152344047296
+    second: Spiny_normal_60
+  - first:
+      213: 29274928728784111
+    second: Spiny_normal_61
+  - first:
+      213: 7647668270942428866
+    second: Spiny_normal_62
+  - first:
+      213: -7592963251918631325
+    second: Spiny_normal_63
+  - first:
+      213: -5591684789935325167
+    second: Spiny_normal_64
+  - first:
+      213: 6684273695844986117
+    second: Spiny_normal_65
+  - first:
+      213: -3056942469740002573
+    second: Spiny_normal_66
+  - first:
+      213: 6762081980967666497
+    second: Spiny_normal_67
+  - first:
+      213: 1420360544156899995
+    second: Spiny_normal_68
+  - first:
+      213: 1169125988569983778
+    second: Spiny_normal_69
+  - first:
+      213: 746855168089264616
+    second: Spiny_normal_70
+  - first:
+      213: -6237228017207414022
+    second: Spiny_normal_71
+  - first:
+      213: 8435919751437648827
+    second: Spiny_normal_72
+  - first:
+      213: -2442040093058838476
+    second: Spiny_normal_73
+  - first:
+      213: 6930288807457214191
+    second: Spiny_normal_74
+  - first:
+      213: 3667006137753372373
+    second: Spiny_normal_75
+  - first:
+      213: 6089065678683372163
+    second: Spiny_normal_76
+  - first:
+      213: 8288902328035202986
+    second: Spiny_normal_77
+  - first:
+      213: -356331520810473473
+    second: Spiny_normal_78
+  - first:
+      213: 254313325332891284
+    second: Spiny_normal_79
+  - first:
+      213: 1176461683694908000
+    second: Spiny_normal_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spiny_normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfaf38f8fa224930800000000000000
+      internalID: 4125907457429974961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 112
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64561b464ab2d9310800000000000000
+      internalID: 1413333843128182086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3be2fd9512b3bb0800000000000000
+      internalID: -4955330295110913050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f9cfb262d8abc80800000000000000
+      internalID: -8306171367645208803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 112
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ad53890e2905f0800000000000000
+      internalID: -790049641233275834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 112
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7ef513903a8c160800000000000000
+      internalID: 7046060876899542981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 112
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d000a956940ca390800000000000000
+      internalID: -7805859010344648495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 112
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc508533265987c0800000000000000
+      internalID: -4068626079131083595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 112
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc727d87e064f5b0800000000000000
+      internalID: -5335533110900392778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 112
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31962870b1e9c9b30800000000000000
+      internalID: 4295481983531903251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 112
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fa50a4d1d7d7d00800000000000000
+      internalID: 972070659331305366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e8267909a2eab0800000000000000
+      internalID: -4980232379816155419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 89
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72aa91de30796cd0800000000000000
+      internalID: -2564395097703931268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 89
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5218c6f3cb5f6150800000000000000
+      internalID: 5868009736704103002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 89
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd47a03e17f92f40800000000000000
+      internalID: 5704362112078794206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 89
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b536454bab7ac380800000000000000
+      internalID: -8950205333913586247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 89
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dbb519cf5ad1830800000000000000
+      internalID: 4043570544637623697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 89
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b134e40309d50c0800000000000000
+      internalID: -4585350308447446216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_18
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755313479ebb8db50800000000000000
+      internalID: 6618246263772099927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc8312bbdf667850800000000000000
+      internalID: 6374405311965662454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 89
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800e6c69700aa5dc0800000000000000
+      internalID: -3649428593575534584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522c7f1bad24b3c20800000000000000
+      internalID: 3187214668350865957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 89
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe631ca984b28d30800000000000000
+      internalID: 4432303486676463359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 89
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d1d48fb2b21f530800000000000000
+      internalID: 3886935421246840117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57a1d29b53eee790800000000000000
+      internalID: -7498806347080554660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 89
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b96e09c0a533f80800000000000000
+      internalID: -8128053892456473826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ab897a62f5e5250800000000000000
+      internalID: 5935285978546092579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_27
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 89
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a5638447dccb6d0800000000000000
+      internalID: -2973275754659947962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ed3fcfb7c70c2c0800000000000000
+      internalID: -4413390762856423919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 89
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba9b9a9d3748900800000000000000
+      internalID: 685800421959773003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_30
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaba0c3c418ac5de0800000000000000
+      internalID: -1343013781726254166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9db5249642617d40800000000000000
+      internalID: 5580349468561489308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 66
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e728b267c00bd540800000000000000
+      internalID: 5033617864871389153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 66
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071a26385b9722890800000000000000
+      internalID: -7484285810236022416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772a6f5a35c4ac1a0800000000000000
+      internalID: -6788529566157200777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd66840039c19340800000000000000
+      internalID: 4868893880235748857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 66
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ee6ffeb0eaf3f30800000000000000
+      internalID: 4557552714216041984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d64714f236c2560800000000000000
+      internalID: 7290310951418752262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2a597f680e6a7c0800000000000000
+      internalID: -4060311143743905046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 66
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2848c77e24eeb100800000000000000
+      internalID: 125788727842195502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_40
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 66
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3005a9dbf06aad7c0800000000000000
+      internalID: -4045738728703242237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 66
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441ea72db5ba97c20800000000000000
+      internalID: 3204781020712460612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_42
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 66
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c675d2049676568a0800000000000000
+      internalID: -6312525600943941780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_43
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 66
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9245c882dbf177d0800000000000000
+      internalID: -2922277801530408294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 66
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f040fd77b123e990800000000000000
+      internalID: -7358000294217629456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_45
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 66
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d9dbb0e3668af00800000000000000
+      internalID: 1128264123327290720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_46
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 66
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfd9f544e56fb150800000000000000
+      internalID: 5890538868724850619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f0c0e2b29663b20800000000000000
+      internalID: 3113791826550329241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1baa56d8791acd0800000000000000
+      internalID: -2548589280563121679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7cd33bb040debb0800000000000000
+      internalID: -4905259970838280237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 42
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df060728e23d0e8c0800000000000000
+      internalID: -3971942674630418179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91657ec3b81234460800000000000000
+      internalID: 7224655109138372121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3921de8ee5f3b8850800000000000000
+      internalID: 6380262973967766163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 42
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bb401b6e7428df0800000000000000
+      internalID: -179501979003470992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_54
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 42
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9863dde9542eb3300800000000000000
+      internalID: 233028594385630857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_55
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 42
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe31d14d98d25d470800000000000000
+      internalID: 8418685148431455215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_56
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e89557e60736600800000000000000
+      internalID: 460335206639439445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_57
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 42
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a18531ee49b8f00800000000000000
+      internalID: 1120152682579368607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 42
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb40d9978c680b80800000000000000
+      internalID: -8428367372966933569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_59
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f44a7f02055dfc50800000000000000
+      internalID: 6700605287935132921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_60
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 42
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce9387d0c56e9d10800000000000000
+      internalID: 2134255152344047296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec34bf7461086000800000000000000
+      internalID: 29274928728784111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_62
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 42
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce9c89f5c9f12a60800000000000000
+      internalID: 7647668270942428866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8bc0d62060a690800000000000000
+      internalID: -7592963251918631325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 21
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11043ff3f485662b0800000000000000
+      internalID: -5591684789935325167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50de356f28f43cc50800000000000000
+      internalID: 6684273695844986117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_66
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f28758250f8395d0800000000000000
+      internalID: -3056942469740002573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143c5a11cbdb7dd50800000000000000
+      internalID: 6762081980967666497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_68
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad377b36226b310800000000000000
+      internalID: 1420360544156899995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_69
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b246e64e1993010800000000000000
+      internalID: 1169125988569983778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_70
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e110a081dc5d5a00800000000000000
+      internalID: 746855168089264616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_71
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2fc332a2ae079a0800000000000000
+      internalID: -6237228017207414022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_72
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3842a8158621570800000000000000
+      internalID: 8435919751437648827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_73
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43057fd49712c1ed0800000000000000
+      internalID: -2442040093058838476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_74
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee4a5fb3f45d2060800000000000000
+      internalID: 6930288807457214191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_75
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d687f557a2d3e230800000000000000
+      internalID: 3667006137753372373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_76
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38af1f739f4b08450800000000000000
+      internalID: 6089065678683372163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_77
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7527830c8180370800000000000000
+      internalID: 8288902328035202986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_78
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff721d7ae5e0e0bf0800000000000000
+      internalID: -356331520810473473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_79
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4968d1a3f90878300800000000000000
+      internalID: 254313325332891284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spiny_normal_80
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623e7c0ba1a35010800000000000000
+      internalID: 1176461683694908000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

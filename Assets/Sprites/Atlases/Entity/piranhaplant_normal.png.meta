@@ -1,0 +1,2492 @@
+fileFormatVersion: 2
+guid: 4b000dceab1623944a0fd0bebfe57922
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4599204685405229040
+    second: piranhaplant_normal_0
+  - first:
+      213: 8757427238778587882
+    second: piranhaplant_normal_1
+  - first:
+      213: -9186340443613577108
+    second: piranhaplant_normal_2
+  - first:
+      213: 8459294121179201278
+    second: piranhaplant_normal_3
+  - first:
+      213: -4224965162491036485
+    second: piranhaplant_normal_4
+  - first:
+      213: -5045492430407321519
+    second: piranhaplant_normal_5
+  - first:
+      213: 8511664537239349501
+    second: piranhaplant_normal_6
+  - first:
+      213: 667117224044915019
+    second: piranhaplant_normal_7
+  - first:
+      213: -299683465731775554
+    second: piranhaplant_normal_8
+  - first:
+      213: -5449721884006130634
+    second: piranhaplant_normal_9
+  - first:
+      213: -4296496178393190046
+    second: piranhaplant_normal_10
+  - first:
+      213: 8036860820022333134
+    second: piranhaplant_normal_11
+  - first:
+      213: 8906813753707558689
+    second: piranhaplant_normal_12
+  - first:
+      213: -385240609174830929
+    second: piranhaplant_normal_13
+  - first:
+      213: -3459548538328236410
+    second: piranhaplant_normal_14
+  - first:
+      213: 7235433629155885135
+    second: piranhaplant_normal_15
+  - first:
+      213: 6572823176049957921
+    second: piranhaplant_normal_16
+  - first:
+      213: -8897684276990172691
+    second: piranhaplant_normal_17
+  - first:
+      213: 4275027266141273560
+    second: piranhaplant_normal_18
+  - first:
+      213: -5481629694982019553
+    second: piranhaplant_normal_19
+  - first:
+      213: 5151390674372451542
+    second: piranhaplant_normal_20
+  - first:
+      213: 1097533567546795106
+    second: piranhaplant_normal_21
+  - first:
+      213: 7783189017141888107
+    second: piranhaplant_normal_22
+  - first:
+      213: 1568799682037682837
+    second: piranhaplant_normal_23
+  - first:
+      213: 1637493600409271901
+    second: piranhaplant_normal_24
+  - first:
+      213: 181611245584818989
+    second: piranhaplant_normal_25
+  - first:
+      213: 6604017452822831326
+    second: piranhaplant_normal_26
+  - first:
+      213: 5358638901699806036
+    second: piranhaplant_normal_27
+  - first:
+      213: 2148769177913008462
+    second: piranhaplant_normal_28
+  - first:
+      213: -4254503558633877606
+    second: piranhaplant_normal_29
+  - first:
+      213: 8800431560688992967
+    second: piranhaplant_normal_30
+  - first:
+      213: 4948889026961243683
+    second: piranhaplant_normal_31
+  - first:
+      213: -5931191568591186975
+    second: piranhaplant_normal_32
+  - first:
+      213: -329289861594095692
+    second: piranhaplant_normal_33
+  - first:
+      213: -4944234447905618922
+    second: piranhaplant_normal_34
+  - first:
+      213: -5227642915842426281
+    second: piranhaplant_normal_35
+  - first:
+      213: 3577787807870641176
+    second: piranhaplant_normal_36
+  - first:
+      213: 5396806274557358053
+    second: piranhaplant_normal_37
+  - first:
+      213: -8826023561600217972
+    second: piranhaplant_normal_38
+  - first:
+      213: 7648975380437877809
+    second: piranhaplant_normal_39
+  - first:
+      213: -4607209605102211442
+    second: piranhaplant_normal_40
+  - first:
+      213: 7490997808144038760
+    second: piranhaplant_normal_41
+  - first:
+      213: 2085928115379247147
+    second: piranhaplant_normal_42
+  - first:
+      213: 3561214705459634086
+    second: piranhaplant_normal_43
+  - first:
+      213: -2350506041227420223
+    second: piranhaplant_normal_44
+  - first:
+      213: -6741973874223565618
+    second: piranhaplant_normal_45
+  - first:
+      213: 5055772946368869587
+    second: piranhaplant_normal_46
+  - first:
+      213: -9043592432068134740
+    second: piranhaplant_normal_47
+  - first:
+      213: 148906831846068960
+    second: piranhaplant_normal_48
+  - first:
+      213: 7810180419540437859
+    second: piranhaplant_normal_49
+  - first:
+      213: -7244225247695600904
+    second: piranhaplant_normal_50
+  - first:
+      213: 4466573096815844145
+    second: piranhaplant_normal_51
+  - first:
+      213: -9028010893049516086
+    second: piranhaplant_normal_52
+  - first:
+      213: -4003703195306446327
+    second: piranhaplant_normal_53
+  - first:
+      213: -9207661693800898435
+    second: piranhaplant_normal_54
+  - first:
+      213: -1504049443698132279
+    second: piranhaplant_normal_55
+  - first:
+      213: 3477768368888450827
+    second: piranhaplant_normal_56
+  - first:
+      213: 7169569637683064378
+    second: piranhaplant_normal_57
+  - first:
+      213: -606147039336695217
+    second: piranhaplant_normal_58
+  - first:
+      213: -6054126971328801460
+    second: piranhaplant_normal_59
+  - first:
+      213: 9087006179268642546
+    second: piranhaplant_normal_60
+  - first:
+      213: 4487609539534186212
+    second: piranhaplant_normal_61
+  - first:
+      213: 4601485495461354538
+    second: piranhaplant_normal_62
+  - first:
+      213: 7391180761181944137
+    second: piranhaplant_normal_63
+  - first:
+      213: -805054115867636484
+    second: piranhaplant_normal_64
+  - first:
+      213: -8597153012469230458
+    second: piranhaplant_normal_65
+  - first:
+      213: 2162001376208081363
+    second: piranhaplant_normal_66
+  - first:
+      213: 3781283445350802033
+    second: piranhaplant_normal_67
+  - first:
+      213: 5061427042036154563
+    second: piranhaplant_normal_68
+  - first:
+      213: 2782558836794501277
+    second: piranhaplant_normal_69
+  - first:
+      213: -2042157298505578406
+    second: piranhaplant_normal_70
+  - first:
+      213: 494185137873861121
+    second: piranhaplant_normal_71
+  - first:
+      213: 435782419712772640
+    second: piranhaplant_normal_72
+  - first:
+      213: 3199341553939547059
+    second: piranhaplant_normal_73
+  - first:
+      213: -678452102033284507
+    second: piranhaplant_normal_74
+  - first:
+      213: -5118694759546679028
+    second: piranhaplant_normal_75
+  - first:
+      213: -7183178364410589312
+    second: piranhaplant_normal_76
+  - first:
+      213: -48928587339721020
+    second: piranhaplant_normal_77
+  - first:
+      213: -6986710391839887502
+    second: piranhaplant_normal_78
+  - first:
+      213: 4184469824448383116
+    second: piranhaplant_normal_79
+  - first:
+      213: 4933985495767321779
+    second: piranhaplant_normal_80
+  - first:
+      213: -6660844903345485428
+    second: piranhaplant_normal_81
+  - first:
+      213: 2934154706099040590
+    second: piranhaplant_normal_82
+  - first:
+      213: 3882656298376286209
+    second: piranhaplant_normal_83
+  - first:
+      213: 8269111326186083422
+    second: piranhaplant_normal_84
+  - first:
+      213: -7963982618566464246
+    second: piranhaplant_normal_85
+  - first:
+      213: 1087475100712190457
+    second: piranhaplant_normal_86
+  - first:
+      213: 6120987421359268607
+    second: piranhaplant_normal_87
+  - first:
+      213: -3365892900683564384
+    second: piranhaplant_normal_88
+  - first:
+      213: -2012797713641364967
+    second: piranhaplant_normal_89
+  - first:
+      213: -5691169667867787071
+    second: piranhaplant_normal_90
+  - first:
+      213: -8388247239697128653
+    second: piranhaplant_normal_91
+  - first:
+      213: 6772499055710628659
+    second: piranhaplant_normal_92
+  - first:
+      213: -6864819705786582196
+    second: piranhaplant_normal_93
+  - first:
+      213: 3145787792812008369
+    second: piranhaplant_normal_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: piranhaplant_normal_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010fb1dc4b75c20c0800000000000000
+      internalID: -4599204685405229040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 9
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea4ab1cca1a88970800000000000000
+      internalID: 8757427238778587882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60cb90b900938080800000000000000
+      internalID: -9186340443613577108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efebf671f23756570800000000000000
+      internalID: 8459294121179201278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 12
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc325dc198ed55c0800000000000000
+      internalID: -4224965162491036485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 13
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15836a0ed5fcaf9b0800000000000000
+      internalID: -5045492430407321519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 14
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8e075ccc18f1670800000000000000
+      internalID: 8511664537239349501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 15
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49edbaa493124900800000000000000
+      internalID: 667117224044915019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 16
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3eff7c97f47dbf0800000000000000
+      internalID: -299683465731775554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 17
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c542302d2be54b0800000000000000
+      internalID: -5449721884006130634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 18
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261fc045d77cf54c0800000000000000
+      internalID: -4296496178393190046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 19
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece8faea55aa88f60800000000000000
+      internalID: 8036860820022333134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 20
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1277d4e2beb5b9b70800000000000000
+      internalID: 8906813753707558689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 21
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0441105b957aaf0800000000000000
+      internalID: -385240609174830929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 22
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e39b11fe63dffc0800000000000000
+      internalID: -3459548538328236410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_15
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 23
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4080cdfc8c696460800000000000000
+      internalID: 7235433629155885135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_16
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 24
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c99e3badb573b50800000000000000
+      internalID: 6572823176049957921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 25
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de12c62ca43158480800000000000000
+      internalID: -8897684276990172691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_18
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 26
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddb57306a2f35b30800000000000000
+      internalID: 4275027266141273560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 27
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f162d58d5d65de3b0800000000000000
+      internalID: -5481629694982019553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 28
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcda3d668a6d7740800000000000000
+      internalID: 5151390674372451542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 29
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264a1b6f6f83b3f00800000000000000
+      internalID: 1097533567546795106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 30
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64c67a8c21730c60800000000000000
+      internalID: 7783189017141888107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_23
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 31
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5921a9bbffe75c510800000000000000
+      internalID: 1568799682037682837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ebe56f0cb89b610800000000000000
+      internalID: 1637493600409271901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_25
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ac443776358200800000000000000
+      internalID: 181611245584818989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_26
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 32
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed02cfd32ee26ab50800000000000000
+      internalID: 6604017452822831326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_27
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 32
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453086790b5bd5a40800000000000000
+      internalID: 5358638901699806036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_28
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4120d1ce26f1dd10800000000000000
+      internalID: 2148769177913008462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_29
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f0ef30e87f4f4c0800000000000000
+      internalID: -4254503558633877606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_30
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c20105b0e9612a70800000000000000
+      internalID: 8800431560688992967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_31
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e7ad4895cfda440800000000000000
+      internalID: 4948889026961243683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_32
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3945371bc20bda0800000000000000
+      internalID: -5931191568591186975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_33
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 32
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfdb839d902e6bf0800000000000000
+      internalID: -329289861594095692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_34
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 32
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614065e17fc826bb0800000000000000
+      internalID: -4944234447905618922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_35
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 32
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aff9c177ea377b0800000000000000
+      internalID: -5227642915842426281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_36
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 32
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8146ad92e0bd6a130800000000000000
+      internalID: 3577787807870641176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_37
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 32
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef279496be45ea40800000000000000
+      internalID: 5396806274557358053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_38
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 32
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c479f355aa38580800000000000000
+      internalID: -8826023561600217972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_39
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 32
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13445be159e962a60800000000000000
+      internalID: 7648975380437877809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_40
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 32
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e6d123647ef00c0800000000000000
+      internalID: -4607209605102211442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_41
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 32
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bb7a741de55f760800000000000000
+      internalID: 7490997808144038760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_42
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 32
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b281e28b194b2fc10800000000000000
+      internalID: 2085928115379247147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_43
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af91df08e9fb6130800000000000000
+      internalID: 3561214705459634086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_44
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 32
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdda328533516fd0800000000000000
+      internalID: -2350506041227420223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_45
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 32
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4b0fd5b72bf62a0800000000000000
+      internalID: -6741973874223565618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_46
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 32
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4b85545b6b92640800000000000000
+      internalID: 5055772946368869587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_47
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 32
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8fa291994be7280800000000000000
+      internalID: -9043592432068134740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_48
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 31
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e250d089f5011200800000000000000
+      internalID: 148906831846068960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_49
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 30
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b4b6226b5536c60800000000000000
+      internalID: 7810180419540437859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_50
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 29
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2003ec487577b90800000000000000
+      internalID: -7244225247695600904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_51
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 28
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b560f01947cfd30800000000000000
+      internalID: 4466573096815844145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_52
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 27
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf2d6bdcef06b280800000000000000
+      internalID: -9028010893049516086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_53
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 26
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902b9a9082dff68c0800000000000000
+      internalID: -4003703195306446327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_54
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 25
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70a6094970d73080800000000000000
+      internalID: -9207661693800898435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_55
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 24
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cabfbfeffa802be0800000000000000
+      internalID: -1504049443698132279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_56
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 23
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f8faec7e3834030800000000000000
+      internalID: 3477768368888450827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_57
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 22
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e6686799d6f7360800000000000000
+      internalID: 7169569637683064378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_58
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 21
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a7eaeaa788697f0800000000000000
+      internalID: -606147039336695217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_59
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 20
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45d5d0889b6bfba0800000000000000
+      internalID: -6054126971328801460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_60
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 19
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6461b99f78b1e70800000000000000
+      internalID: 9087006179268642546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_61
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 18
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e69e8911374e30800000000000000
+      internalID: 4487609539534186212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_62
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 17
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c161cada2cbdf30800000000000000
+      internalID: 4601485495461354538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_63
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 16
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94973fcfdbfb29660800000000000000
+      internalID: 7391180761181944137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_64
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 15
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc4eb60c8fd3d4f0800000000000000
+      internalID: -805054115867636484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_65
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 14
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684971482e6c0b880800000000000000
+      internalID: -8597153012469230458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_66
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 13
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1d9c00cc8f00e10800000000000000
+      internalID: 2162001376208081363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_67
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 12
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172233b6241d97430800000000000000
+      internalID: 3781283445350802033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_68
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 11
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c00f11041dcd3640800000000000000
+      internalID: 5061427042036154563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_69
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 10
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98a2c9f482ad9620800000000000000
+      internalID: 2782558836794501277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_70
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 9
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a588a1fb1ccc8a3e0800000000000000
+      internalID: -2042157298505578406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_71
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 8
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10abf3cb3c2bbd600800000000000000
+      internalID: 494185137873861121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_72
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 7
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a07564dc53c0600800000000000000
+      internalID: 435782419712772640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_73
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 6
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b386b54138566c20800000000000000
+      internalID: 3199341553939547059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_74
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 5
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56260356867a596f0800000000000000
+      internalID: -678452102033284507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0111977c3eb6f8b0800000000000000
+      internalID: -5118694759546679028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_76
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f090fe559305c90800000000000000
+      internalID: -7183178364410589312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6114485bb225ff0800000000000000
+      internalID: -48928587339721020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_78
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f6ad17ae73a0f90800000000000000
+      internalID: -6986710391839887502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8846939229321a30800000000000000
+      internalID: 4184469824448383116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_80
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc0422caa9097440800000000000000
+      internalID: 4933985495767321779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_81
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c890f10e9dcef83a0800000000000000
+      internalID: -6660844903345485428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41f21dc82638b820800000000000000
+      internalID: 2934154706099040590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_83
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 4
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100d6a90557f1e530800000000000000
+      internalID: 3882656298376286209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_84
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 3
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e541b7580f8c1c270800000000000000
+      internalID: 8269111326186083422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_85
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de5fed0004a7190800000000000000
+      internalID: -7963982618566464246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_86
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f14808a7dc771f00800000000000000
+      internalID: 1087475100712190457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_87
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2e0cc11ad12f450800000000000000
+      internalID: 6120987421359268607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_88
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa3fb67d32f941d0800000000000000
+      internalID: -3365892900683564384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_89
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91220b9c42b1114e0800000000000000
+      internalID: -2012797713641364967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_90
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c043461757e401b0800000000000000
+      internalID: -5691169667867787071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_91
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333a3bd0495f69b80800000000000000
+      internalID: -8388247239697128653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_92
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bec494200ccfd50800000000000000
+      internalID: 6772499055710628659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_93
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b3d7559d24bb0a0800000000000000
+      internalID: -6864819705786582196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piranhaplant_normal_94
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3e159945518ab20800000000000000
+      internalID: 3145787792812008369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

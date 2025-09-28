@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 82e43dda363ef25468fc2ed5eb1c5095
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3574877992963253707
+    second: bullet-bill_normal_0
+  - first:
+      213: -5833741372658544630
+    second: bullet-bill_normal_1
+  - first:
+      213: 6386162501397740523
+    second: bullet-bill_normal_2
+  - first:
+      213: 8315891509426101968
+    second: bullet-bill_normal_3
+  - first:
+      213: -5111457872889147473
+    second: bullet-bill_normal_4
+  - first:
+      213: 532842966575624154
+    second: bullet-bill_normal_5
+  - first:
+      213: -5836241044751141764
+    second: bullet-bill_normal_6
+  - first:
+      213: 736062257740942745
+    second: bullet-bill_normal_7
+  - first:
+      213: -7756300261894278630
+    second: bullet-bill_normal_8
+  - first:
+      213: 404813202179590441
+    second: bullet-bill_normal_9
+  - first:
+      213: 5993964278643046667
+    second: bullet-bill_normal_10
+  - first:
+      213: -8014632814714425499
+    second: bullet-bill_normal_11
+  - first:
+      213: -7167557061074938663
+    second: bullet-bill_normal_12
+  - first:
+      213: -5155896176031153700
+    second: bullet-bill_normal_13
+  - first:
+      213: 7591221935576469915
+    second: bullet-bill_normal_14
+  - first:
+      213: -5370826907195533039
+    second: bullet-bill_normal_15
+  - first:
+      213: -7499775701369094027
+    second: bullet-bill_normal_16
+  - first:
+      213: 2519913464590709343
+    second: bullet-bill_normal_17
+  - first:
+      213: 6648666586799801902
+    second: bullet-bill_normal_18
+  - first:
+      213: 3516168672519408793
+    second: bullet-bill_normal_19
+  - first:
+      213: -2374959590865080102
+    second: bullet-bill_normal_20
+  - first:
+      213: -5372907159682798493
+    second: bullet-bill_normal_21
+  - first:
+      213: -3791020452819546871
+    second: bullet-bill_normal_22
+  - first:
+      213: 5527132284125190751
+    second: bullet-bill_normal_23
+  - first:
+      213: -3945657116440603176
+    second: bullet-bill_normal_24
+  - first:
+      213: -4492621111583362741
+    second: bullet-bill_normal_25
+  - first:
+      213: -937308317796155165
+    second: bullet-bill_normal_26
+  - first:
+      213: 7021940221826379707
+    second: bullet-bill_normal_27
+  - first:
+      213: 858559538467721339
+    second: bullet-bill_normal_28
+  - first:
+      213: -566620314153196207
+    second: bullet-bill_normal_29
+  - first:
+      213: 6558146047784046012
+    second: bullet-bill_normal_30
+  - first:
+      213: -3255872202607326110
+    second: bullet-bill_normal_31
+  - first:
+      213: 9117814752548713731
+    second: bullet-bill_normal_32
+  - first:
+      213: -6740484824947866797
+    second: bullet-bill_normal_33
+  - first:
+      213: 7528722079423813753
+    second: bullet-bill_normal_34
+  - first:
+      213: 8164046812097351190
+    second: bullet-bill_normal_35
+  - first:
+      213: -2073353681314919582
+    second: bullet-bill_normal_36
+  - first:
+      213: 6114461683276083556
+    second: bullet-bill_normal_37
+  - first:
+      213: 3417490969589688713
+    second: bullet-bill_normal_38
+  - first:
+      213: 1199669136112097071
+    second: bullet-bill_normal_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bullet-bill_normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a501ae76b736ec0800000000000000
+      internalID: -3574877992963253707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00103b41236a0fa0800000000000000
+      internalID: -5833741372658544630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb7bbda5f430a850800000000000000
+      internalID: 6386162501397740523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 28
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de9702b44bf76370800000000000000
+      internalID: 8315891509426101968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf811275247019b0800000000000000
+      internalID: -5111457872889147473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf2ecfdad9056700800000000000000
+      internalID: 532842966575624154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74bd0801b1810fa0800000000000000
+      internalID: -5836241044751141764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d883d39b4073a00800000000000000
+      internalID: 736062257740942745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12b586a1061c5490800000000000000
+      internalID: -7756300261894278630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9298d4c667f2e9500800000000000000
+      internalID: 404813202179590441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0936e801c6de2350800000000000000
+      internalID: 5993964278643046667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fe1c91bed46c090800000000000000
+      internalID: -8014632814714425499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4194b04d8b78c90800000000000000
+      internalID: -7167557061074938663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd14ed8beb39278b0800000000000000
+      internalID: -5155896176031153700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9150316120795960800000000000000
+      internalID: 7591221935576469915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119108e326df675b0800000000000000
+      internalID: -5370826907195533039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5700ac03cb17be790800000000000000
+      internalID: -7499775701369094027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5237a9e1f788f220800000000000000
+      internalID: 2519913464590709343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 44
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e260638d80fc44c50800000000000000
+      internalID: 6648666586799801902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c40e737c0fbc030800000000000000
+      internalID: 3516168672519408793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 43
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0749ec5d27a0fd0800000000000000
+      internalID: -2374959590865080102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c24f7b7699f65b0800000000000000
+      internalID: -5372907159682798493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 43
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d437ddbf6936bc0800000000000000
+      internalID: -3791020452819546871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a10e5478154bc40800000000000000
+      internalID: 5527132284125190751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 43
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5d011f1c53e39c0800000000000000
+      internalID: -3945657116440603176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 29
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4137a5e6e007a1c0800000000000000
+      internalID: -4492621111583362741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0cdb01d030ef2f0800000000000000
+      internalID: -937308317796155165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf2dfb8d61f27160800000000000000
+      internalID: 7021940221826379707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7054e4f9573aeb00800000000000000
+      internalID: 858559538467721339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155e06c83d5f228f0800000000000000
+      internalID: -566620314153196207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdcc4b7517330b50800000000000000
+      internalID: 6558146047784046012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c85896b71d0d2d0800000000000000
+      internalID: -3255872202607326110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3057b7d853cf88e70800000000000000
+      internalID: 9117814752548713731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353421ba3ccf472a0800000000000000
+      internalID: -6740484824947866797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97852b4a7d46b7860800000000000000
+      internalID: 7528722079423813753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e09b412558c4170800000000000000
+      internalID: 8164046812097351190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc97bdfc7f933e0800000000000000
+      internalID: -2073353681314919582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_37
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4617860518eead450800000000000000
+      internalID: 6114461683276083556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_38
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989af712eed5d6f20800000000000000
+      internalID: 3417490969589688713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-bill_normal_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 14
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2716f129b416a010800000000000000
+      internalID: 1199669136112097071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

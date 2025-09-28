@@ -1,0 +1,3192 @@
+fileFormatVersion: 2
+guid: 58b96d10258b4d24e8d3af0ef8409c5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -42086017896056182
+    second: bobomb_normal_0
+  - first:
+      213: -6260646864868148947
+    second: bobomb_normal_1
+  - first:
+      213: -4035005588638398985
+    second: bobomb_normal_2
+  - first:
+      213: 8425498564247637759
+    second: bobomb_normal_3
+  - first:
+      213: -2383057630224856067
+    second: bobomb_normal_4
+  - first:
+      213: -1505887515624406657
+    second: bobomb_normal_5
+  - first:
+      213: 484614687198851964
+    second: bobomb_normal_6
+  - first:
+      213: 2742536537180971637
+    second: bobomb_normal_7
+  - first:
+      213: -2410029892407525392
+    second: bobomb_normal_8
+  - first:
+      213: 8008728469100085849
+    second: bobomb_normal_9
+  - first:
+      213: -5863096539146207133
+    second: bobomb_normal_10
+  - first:
+      213: -3572993141821735118
+    second: bobomb_normal_11
+  - first:
+      213: -3209052567593748495
+    second: bobomb_normal_12
+  - first:
+      213: 7853630868409870839
+    second: bobomb_normal_13
+  - first:
+      213: -8483803175851880379
+    second: bobomb_normal_14
+  - first:
+      213: 688588445437099433
+    second: bobomb_normal_15
+  - first:
+      213: -4630165548531486902
+    second: bobomb_normal_16
+  - first:
+      213: -211032280943403227
+    second: bobomb_normal_17
+  - first:
+      213: 7824733068592656949
+    second: bobomb_normal_18
+  - first:
+      213: -5150150829960820738
+    second: bobomb_normal_19
+  - first:
+      213: 7541534435150574540
+    second: bobomb_normal_20
+  - first:
+      213: 9011342656374338117
+    second: bobomb_normal_21
+  - first:
+      213: 1225462660413653672
+    second: bobomb_normal_22
+  - first:
+      213: -655485264555362932
+    second: bobomb_normal_23
+  - first:
+      213: -7866729558114024295
+    second: bobomb_normal_24
+  - first:
+      213: -4982691096128516936
+    second: bobomb_normal_25
+  - first:
+      213: 3464277937750390050
+    second: bobomb_normal_26
+  - first:
+      213: 2592475522643219499
+    second: bobomb_normal_27
+  - first:
+      213: 7375001945752290319
+    second: bobomb_normal_28
+  - first:
+      213: 164557175139231868
+    second: bobomb_normal_29
+  - first:
+      213: -7389958224734433986
+    second: bobomb_normal_30
+  - first:
+      213: 3035134715035384030
+    second: bobomb_normal_31
+  - first:
+      213: 7164718033572462529
+    second: bobomb_normal_32
+  - first:
+      213: -1406629684808152924
+    second: bobomb_normal_33
+  - first:
+      213: -8608396316790934440
+    second: bobomb_normal_34
+  - first:
+      213: -8633286515894377986
+    second: bobomb_normal_35
+  - first:
+      213: -2922204967085731530
+    second: bobomb_normal_36
+  - first:
+      213: 1453090913057023223
+    second: bobomb_normal_37
+  - first:
+      213: -2275894644251177226
+    second: bobomb_normal_38
+  - first:
+      213: -5616376119357839740
+    second: bobomb_normal_39
+  - first:
+      213: -1983436560075426436
+    second: bobomb_normal_40
+  - first:
+      213: -6067465177038026178
+    second: bobomb_normal_41
+  - first:
+      213: 6011283683867961567
+    second: bobomb_normal_42
+  - first:
+      213: 7600605016051734116
+    second: bobomb_normal_43
+  - first:
+      213: -3887205525015968012
+    second: bobomb_normal_44
+  - first:
+      213: 2025100637081833157
+    second: bobomb_normal_45
+  - first:
+      213: 9058560215602997763
+    second: bobomb_normal_46
+  - first:
+      213: 5903773087709330752
+    second: bobomb_normal_47
+  - first:
+      213: 4999262860843903919
+    second: bobomb_normal_48
+  - first:
+      213: -2114844765875637695
+    second: bobomb_normal_49
+  - first:
+      213: 1037227265656981471
+    second: bobomb_normal_50
+  - first:
+      213: -2346291143940378651
+    second: bobomb_normal_51
+  - first:
+      213: -5177771783782355864
+    second: bobomb_normal_52
+  - first:
+      213: 7210370846595222651
+    second: bobomb_normal_53
+  - first:
+      213: -8716561259060668348
+    second: bobomb_normal_54
+  - first:
+      213: 5850685356828820236
+    second: bobomb_normal_55
+  - first:
+      213: 8741467764799349907
+    second: bobomb_normal_56
+  - first:
+      213: -7597029842438750068
+    second: bobomb_normal_57
+  - first:
+      213: -4989761897512411224
+    second: bobomb_normal_58
+  - first:
+      213: 8924952938009400431
+    second: bobomb_normal_59
+  - first:
+      213: -8606163941735437199
+    second: bobomb_normal_60
+  - first:
+      213: 2746745510529993057
+    second: bobomb_normal_61
+  - first:
+      213: 4301676189603735808
+    second: bobomb_normal_62
+  - first:
+      213: 2203331354481723401
+    second: bobomb_normal_63
+  - first:
+      213: -5164793154954167830
+    second: bobomb_normal_64
+  - first:
+      213: 925717704555424224
+    second: bobomb_normal_65
+  - first:
+      213: -602328841536440027
+    second: bobomb_normal_66
+  - first:
+      213: 1015837511758657216
+    second: bobomb_normal_67
+  - first:
+      213: -1362353234028416012
+    second: bobomb_normal_68
+  - first:
+      213: -4585523521741610454
+    second: bobomb_normal_69
+  - first:
+      213: -4967877377088706867
+    second: bobomb_normal_70
+  - first:
+      213: -5102065367252868748
+    second: bobomb_normal_71
+  - first:
+      213: 175276608600147921
+    second: bobomb_normal_72
+  - first:
+      213: -2003520526454978729
+    second: bobomb_normal_73
+  - first:
+      213: -4567003126037950275
+    second: bobomb_normal_74
+  - first:
+      213: 6336934309226144183
+    second: bobomb_normal_75
+  - first:
+      213: 6977933486565596924
+    second: bobomb_normal_76
+  - first:
+      213: 8877938081222028560
+    second: bobomb_normal_77
+  - first:
+      213: -978965466618476718
+    second: bobomb_normal_78
+  - first:
+      213: 4205082080153635386
+    second: bobomb_normal_79
+  - first:
+      213: 333525852635579304
+    second: bobomb_normal_80
+  - first:
+      213: -8126650630439062724
+    second: bobomb_normal_81
+  - first:
+      213: -3273890623256322445
+    second: bobomb_normal_82
+  - first:
+      213: -6776638422546967280
+    second: bobomb_normal_83
+  - first:
+      213: -1762033504735609115
+    second: bobomb_normal_84
+  - first:
+      213: -61869984749735658
+    second: bobomb_normal_85
+  - first:
+      213: 6533855532267581345
+    second: bobomb_normal_86
+  - first:
+      213: -1960092391486389738
+    second: bobomb_normal_87
+  - first:
+      213: -3747701265816568127
+    second: bobomb_normal_88
+  - first:
+      213: -4073132777787882663
+    second: bobomb_normal_89
+  - first:
+      213: 6184822366966586964
+    second: bobomb_normal_90
+  - first:
+      213: 1079734245843257178
+    second: bobomb_normal_91
+  - first:
+      213: -3285922414088669982
+    second: bobomb_normal_92
+  - first:
+      213: 6888075197382863614
+    second: bobomb_normal_93
+  - first:
+      213: 7186568915917420659
+    second: bobomb_normal_94
+  - first:
+      213: 2167497044393849013
+    second: bobomb_normal_95
+  - first:
+      213: -315643801665382473
+    second: bobomb_normal_96
+  - first:
+      213: -2643427525771721415
+    second: bobomb_normal_97
+  - first:
+      213: -27231488453696835
+    second: bobomb_normal_98
+  - first:
+      213: 9044337377665535841
+    second: bobomb_normal_99
+  - first:
+      213: -8612057939118873306
+    second: bobomb_normal_100
+  - first:
+      213: 1856473481157865921
+    second: bobomb_normal_101
+  - first:
+      213: -2260139252830076289
+    second: bobomb_normal_102
+  - first:
+      213: -8387934368562778927
+    second: bobomb_normal_103
+  - first:
+      213: 5382391338434135030
+    second: bobomb_normal_104
+  - first:
+      213: -3881858802968327492
+    second: bobomb_normal_105
+  - first:
+      213: 4611882265007811013
+    second: bobomb_normal_106
+  - first:
+      213: 621034301417945630
+    second: bobomb_normal_107
+  - first:
+      213: 1713421454166270670
+    second: bobomb_normal_108
+  - first:
+      213: 6528934921868724703
+    second: bobomb_normal_109
+  - first:
+      213: -9205288974840267008
+    second: bobomb_normal_110
+  - first:
+      213: -7455555533797801978
+    second: bobomb_normal_111
+  - first:
+      213: -6916349228768075804
+    second: bobomb_normal_112
+  - first:
+      213: -2388444665106325171
+    second: bobomb_normal_113
+  - first:
+      213: 8713336100531396465
+    second: bobomb_normal_114
+  - first:
+      213: -1790287617666298724
+    second: bobomb_normal_115
+  - first:
+      213: 8883410395045612568
+    second: bobomb_normal_116
+  - first:
+      213: -9197976151170854278
+    second: bobomb_normal_117
+  - first:
+      213: -9108139175687153879
+    second: bobomb_normal_118
+  - first:
+      213: -7991364180049794810
+    second: bobomb_normal_119
+  - first:
+      213: 942345893197220944
+    second: bobomb_normal_120
+  - first:
+      213: -501280709380751925
+    second: bobomb_normal_121
+  - first:
+      213: -2562782738527137152
+    second: bobomb_normal_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bobomb_normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a7b4d5dfa7a6ff0800000000000000
+      internalID: -42086017896056182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 116
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29fe53c8d6bd19a0800000000000000
+      internalID: -6260646864868148947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 116
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f50e76abc7c008c0800000000000000
+      internalID: -4035005588638398985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 116
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe4b81dd426de470800000000000000
+      internalID: 8425498564247637759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbc92716bdadeed0800000000000000
+      internalID: -2383057630224856067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71038778430a1be0800000000000000
+      internalID: -1505887515624406657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73bc6b8d72b9b600800000000000000
+      internalID: 484614687198851964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572a33233727f0620800000000000000
+      internalID: 2742536537180971637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fff9fce49add8ed0800000000000000
+      internalID: -2410029892407525392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952c44f4c18b42f60800000000000000
+      internalID: 8008728469100085849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3604e5cf2c812aea0800000000000000
+      internalID: -5863096539146207133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ffec40bad2a6ec0800000000000000
+      internalID: -3572993141821735118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7f40b21b72773d0800000000000000
+      internalID: -3209052567593748495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9ec9c1aa3bdfc60800000000000000
+      internalID: 7853630868409870839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540940fe5f9734a80800000000000000
+      internalID: -8483803175851880379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad77b6fa8b5e8900800000000000000
+      internalID: 688588445437099433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f678c17f85ebfb0800000000000000
+      internalID: -4630165548531486902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f5a323243421df0800000000000000
+      internalID: -211032280943403227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532b7b7c449079c60800000000000000
+      internalID: 7824733068592656949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_19
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef780885b1df688b0800000000000000
+      internalID: -5150150829960820738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3b68cac99e8a860800000000000000
+      internalID: 7541534435150574540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_21
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 116
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542748ed668be0d70800000000000000
+      internalID: 9011342656374338117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_22
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2067ffbc7b10110800000000000000
+      internalID: 1225462660413653672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_23
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85bca2ff9f37e6f0800000000000000
+      internalID: -655485264555362932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_24
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9944c888523c3d290800000000000000
+      internalID: -7866729558114024295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_25
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc02c5f8dce9dab0800000000000000
+      internalID: -4982691096128516936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_26
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225b5da0e66931030800000000000000
+      internalID: 3464277937750390050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_27
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b245b0890c25af320800000000000000
+      internalID: 2592475522643219499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_28
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04416af135495660800000000000000
+      internalID: 7375001945752290319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c786a6101ef984200800000000000000
+      internalID: 164557175139231868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_30
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d4ab5f528917990800000000000000
+      internalID: -7389958224734433986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_31
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8f32741f6fe1a20800000000000000
+      internalID: 3035134715035384030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_32
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 116
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cffbea57113e6360800000000000000
+      internalID: 7164718033572462529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a88d7a11c5aa7ce0800000000000000
+      internalID: -1406629684808152924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_34
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 92
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85435ebb825d88880800000000000000
+      internalID: -8608396316790934440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_35
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 92
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef122f7a7a7603880800000000000000
+      internalID: -8633286515894377986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 92
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63119ff901e3277d0800000000000000
+      internalID: -2922204967085731530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 92
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4ac139c7a6a2410800000000000000
+      internalID: 1453090913057023223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 92
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fec13711e56a60e0800000000000000
+      internalID: -2275894644251177226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 92
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48660b02daf9e02b0800000000000000
+      internalID: -5616376119357839740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 92
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c757e2215fa6974e0800000000000000
+      internalID: -1983436560075426436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 92
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a889b71980ccba0800000000000000
+      internalID: -6067465177038026178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_42
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 92
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd82d0d49ae5c6350800000000000000
+      internalID: 6011283683867961567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_43
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 92
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466d0db0ef5ca7960800000000000000
+      internalID: 7600605016051734116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_44
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 92
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6cc789b2fdd0ac0800000000000000
+      internalID: -3887205525015968012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_45
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 92
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce0eabcc4a9a1c10800000000000000
+      internalID: 2025100637081833157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_46
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 92
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aa083958876bd70800000000000000
+      internalID: 9058560215602997763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_47
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 92
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dfc6ff75a6ee150800000000000000
+      internalID: 5903773087709330752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 92
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab676fa513f06540800000000000000
+      internalID: 4999262860843903919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14273eee3ef86a2e0800000000000000
+      internalID: -2114844765875637695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd785d0e3b8f46e00800000000000000
+      internalID: 1037227265656981471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efe9c1c2ac407fd0800000000000000
+      internalID: -2346291143940378651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 68
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cac93eefbd428b0800000000000000
+      internalID: -5177771783782355864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_53
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c04223512601460800000000000000
+      internalID: 7210370846595222651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448d1ca97bd880780800000000000000
+      internalID: -8716561259060668348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_55
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c038c52755fc13150800000000000000
+      internalID: 5850685356828820236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_56
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394a4682e9eef4970800000000000000
+      internalID: 8741467764799349907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_57
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80856deb9de19690800000000000000
+      internalID: -7597029842438750068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af5ef8bdfdc0cab0800000000000000
+      internalID: -4989761897512411224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_59
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641123296dcbdb70800000000000000
+      internalID: 8924952938009400431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_60
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 68
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c651e0e73c09880800000000000000
+      internalID: -8606163941735437199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_61
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 68
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1690a8b2d766e1620800000000000000
+      internalID: 2746745510529993057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_62
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 68
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009261404bf92bb30800000000000000
+      internalID: 4301676189603735808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080d52713ec39e10800000000000000
+      internalID: 2203331354481723401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 68
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae976946df7f258b0800000000000000
+      internalID: -5164793154954167830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_65
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 68
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9e05ef85fc8dc00800000000000000
+      internalID: 925717704555424224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_66
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5297f322c1914a7f0800000000000000
+      internalID: -602328841536440027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_67
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 68
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c634e5b5daf81e00800000000000000
+      internalID: 1015837511758657216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_68
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3b123a3f2f71de0800000000000000
+      internalID: -1362353234028416012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_69
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 68
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22a461f6a2fc50c0800000000000000
+      internalID: -4585523521741610454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_70
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6ade2b8dd8e0bb0800000000000000
+      internalID: -4967877377088706867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_71
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471e1149492d139b0800000000000000
+      internalID: -5102065367252868748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_72
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d70c099525be6200800000000000000
+      internalID: 175276608600147921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_73
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757827042b01234e0800000000000000
+      internalID: -2003520526454978729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0d8689adebe90c0800000000000000
+      internalID: -4567003126037950275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_75
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 68
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1e8620e2051f750800000000000000
+      internalID: 6336934309226144183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_76
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 68
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe9b0d098996d060800000000000000
+      internalID: 6977933486565596924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_77
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 68
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01de625c5a5c43b70800000000000000
+      internalID: 8877938081222028560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_78
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 68
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257c4da48140a62f0800000000000000
+      internalID: -978965466618476718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_79
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 68
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a0be65fd37b5a30800000000000000
+      internalID: 4205082080153635386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_80
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 68
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3c0c1fefbe0a400800000000000000
+      internalID: 333525852635579304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_81
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 68
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33b9f6fe46583f80800000000000000
+      internalID: -8126650630439062724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_82
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e135fe2ddc092d0800000000000000
+      internalID: -3273890623256322445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_83
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 68
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01513d4424b84f1a0800000000000000
+      internalID: -6776638422546967280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_84
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 68
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeb5e3fcdffb87e0800000000000000
+      internalID: -1762033504735609115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_85
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 68
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611bbb0a391342ff0800000000000000
+      internalID: -61869984749735658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_86
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afa78e1dfaecaa50800000000000000
+      internalID: 6533855532267581345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_87
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 68
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612028eda5a5cc4e0800000000000000
+      internalID: -1960092391486389738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_88
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 68
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceb8be0e8d7dfbc0800000000000000
+      internalID: -3747701265816568127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95304f8a1535977c0800000000000000
+      internalID: -4073132777787882663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e1fe59c27e4d550800000000000000
+      internalID: 6184822366966586964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57cf4f639cfbfe00800000000000000
+      internalID: 1079734245843257178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_92
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e430c459fe0662d0800000000000000
+      internalID: -3285922414088669982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_93
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa2f2eb5eb579f50800000000000000
+      internalID: 6888075197382863614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_94
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3783f1b5a52dbb360800000000000000
+      internalID: 7186568915917420659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_95
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0fdc6f31f741e10800000000000000
+      internalID: 2167497044393849013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b75e2e72ab9e9bf0800000000000000
+      internalID: -315643801665382473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_97
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 44
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93503e8bba8a05bd0800000000000000
+      internalID: -2643427525771721415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_98
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db223040b114f9ff0800000000000000
+      internalID: -27231488453696835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_99
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fca801de0f38d70800000000000000
+      internalID: 9044337377665535841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_100
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625acb9dee2db7880800000000000000
+      internalID: -8612057939118873306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_101
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 44
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1f85b8bc483c910800000000000000
+      internalID: 1856473481157865921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_102
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 44
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f728524035f52a0e0800000000000000
+      internalID: -2260139252830076289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 44
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc668a0222189b80800000000000000
+      internalID: -8387934368562778927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_104
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 44
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f38189b76812ba40800000000000000
+      internalID: 5382391338434135030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba89d45cfdd02ac0800000000000000
+      internalID: -3881858802968327492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_106
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9e6b73c72b00040800000000000000
+      internalID: 4611882265007811013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_107
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a7951286b5e9800800000000000000
+      internalID: 621034301417945630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_108
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec22d160cbb47c710800000000000000
+      internalID: 1713421454166270670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_109
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9c0ab38bf6b9a50800000000000000
+      internalID: 6528934921868724703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_110
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f73d7f27e304080800000000000000
+      internalID: -9205288974840267008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_111
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600c8c44ebb888890800000000000000
+      internalID: -7455555533797801978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_112
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef5bb455013400a0800000000000000
+      internalID: -6916349228768075804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_113
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 22
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4129aa4b3a8aded0800000000000000
+      internalID: -2388444665106325171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd2c8a40dfbe870800000000000000
+      internalID: 8713336100531396465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_115
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c4837a5ee9727e0800000000000000
+      internalID: -1790287617666298724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_116
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cc4be10b6384b70800000000000000
+      internalID: 8883410395045612568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_117
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7252f86c693a5080800000000000000
+      internalID: -9197976151170854278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_118
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927195c3da3699180800000000000000
+      internalID: -9108139175687153879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_119
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609e9594e98f81190800000000000000
+      internalID: -7991364180049794810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_120
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c819bd892e31d00800000000000000
+      internalID: 942345893197220944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdba98c9d71b09f0800000000000000
+      internalID: -501280709380751925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobomb_normal_122
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08256917daa2f6cd0800000000000000
+      internalID: -2562782738527137152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
