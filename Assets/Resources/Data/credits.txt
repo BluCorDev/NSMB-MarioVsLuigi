@@ -10,12 +10,17 @@ RosyRose
 <color=yellow>Contributors</color>
 FrostyCake
 KingKittyTurnip
+Lust
 
 <color=yellow>Playtesters</color>
 FrostyCake
 KingKittyTurnip
+Lust
 Vic
 Zomble
+
+<color=yellow>Assets</color>
+Sonic Chrono Adventure
 
 <color=yellow>Music</color>
 Five Nights at Freddy's World
@@ -25,6 +30,7 @@ Sonic Venture
 Sonic Esque Vol. III
 Sonic Unleashed
 Spark The Electric Jester
+Super Paper Mario
 
 <color=yellow>Logo by</color>
 RosyRose

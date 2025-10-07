@@ -68,6 +68,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/RainySky.unity
     guid: 046f8513062d249458a1a6937e8e7dd8
+  - enabled: 1
+    path: Assets/Scenes/Levels/Frosted Peaks.unity
+    guid: 81f03038e59c38641b3c2be8de75805c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Honeycomb City.unity
+    guid: 0700ea7c68ce7fc4b90738eb37c02e88
+  - enabled: 1
+    path: Assets/Scenes/Levels/Rainy Citadel.unity
+    guid: 7fca1c539ff0c1341b49553afb795db7
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: b02bce592fba21b4982d8cf5e36a1459,
       type: 2}
