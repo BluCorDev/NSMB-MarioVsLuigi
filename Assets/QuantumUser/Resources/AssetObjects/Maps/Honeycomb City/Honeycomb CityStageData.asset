@@ -19,7 +19,7 @@ MonoBehaviour:
   ShowAuthorAndComposer: 1
   StageAuthor: RosyRose
   MusicComposer: Naoko Mitome, Chika Sekigawa
-  TranslationKey: Unknown
+  TranslationKey: Honeycomb City
   GroupingTranslationKey: '- Experimental -'
   DiscordStageImage: 
   Icon: {fileID: 21300000, guid: e64cca18721d2d14e95065a64ba3f71c, type: 3}
